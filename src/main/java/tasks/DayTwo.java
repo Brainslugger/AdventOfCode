@@ -15,12 +15,16 @@ public class DayTwo {
     }
 
     public int[] computeProgram(int[] program) {
-        for (int i = 0; i < program.length; i += 4) {
-            if (program[i] == 99) {
-                return program;
-            } else {
-                program = calculate(program, i);
+        try {
+            for (int i = 0; i < program.length; i += 4) {
+                if (program[i] == 99) {
+                    return program;
+                } else {
+                    program = calculate(program, i);
+                }
             }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
         }
         return null;
     }
@@ -33,7 +37,7 @@ public class DayTwo {
                 trial[2] = verb;
                 trial = computeProgram(trial);
                 if (trial[0] == result) {
-                    return 100*trial[1]+trial[2];
+                    return 100 * trial[1] + trial[2];
                 } else {
                     trial = program.clone();
                 }
