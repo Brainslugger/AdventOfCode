@@ -40,6 +40,7 @@ public class DayThree {
                     break;
             }
             wire.getPositions().add(point);
+            wire.getPosition().put(point.toString(), point);
             lastPosition = wire.getPositions().get(wire.getPositions().size() - 1);
             point = new Point(lastPosition.getX(), lastPosition.getY());
         }
@@ -49,11 +50,8 @@ public class DayThree {
     public int calculateDistanceOfClosestIntersection(Wire first, Wire second) {
         int distance = Integer.MAX_VALUE;
         for (Point position : first.getPositions()) {
-            for (Point secondPosition : second.getPositions()) {
-                if (secondPosition.equals(position)) {
-                    distance = Math.min(distance, secondPosition.distance());
-                    break;
-                }
+            if (second.getPosition().containsKey(position.toString())) {
+                distance = Math.min(distance, position.distance());
             }
         }
         return distance;
