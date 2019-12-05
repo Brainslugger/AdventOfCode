@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class DayFiveTest {
 
@@ -30,15 +30,15 @@ class DayFiveTest {
     @Test
     void testsBasicCalculateAddition() {
         int[] line = new int[]{1, 1, 2, 0};
-        int[] result = dayFive.calculate(line, 0, null);
-        assertThat(result[0]).isEqualTo(3);
+        dayFive.calculate(line, 0, null);
+        assertThat(line[0]).isEqualTo(3);
     }
 
     @Test
     void testsBasicCalculateMultiplicaton() {
         int[] line = new int[]{2, 1, 2, 3};
-        int[] result = dayFive.calculate(line, 0, null);
-        assertThat(result[3]).isEqualTo(2);
+        dayFive.calculate(line, 0, null);
+        assertThat(line[3]).isEqualTo(2);
     }
 
     @Test
@@ -105,15 +105,18 @@ class DayFiveTest {
     @Test
     void testsBasicInput() {
         int[] program = new int[]{3, 0};
-        int[] result = dayFive.calculate(program, 0, 30);
-        assertThat(result[0]).isEqualTo(30);
+        int steps = dayFive.calculate(program, 0, 30);
+        assertThat(program[0]).isEqualTo(30);
+        assertThat(steps).isEqualTo(2);
     }
 
     @Test
     void testsBasicOutput() {
         int[] program = new int[]{4, 0};
-        dayFive.calculate(program, 0, 30);
-        assertThat(outContent.toString()).isEqualTo("Output: 4");
+        int steps = dayFive.calculate(program, 0, 30);
+        assertThat(outContent.toString()).isEqualTo("4");
+        assertThat(steps).isEqualTo(2);
+
     }
 
     @Test
@@ -121,7 +124,29 @@ class DayFiveTest {
         int[] program = new int[]{3, 0, 4, 0, 99};
         int[] result = dayFive.computeProgram(program, 42);
         assertThat(result[0]).isEqualTo(42);
-        assertThat(outContent.toString()).isEqualTo("Output: 42");
-
+        assertThat(outContent.toString()).isEqualTo("42");
     }
+
+    @Test
+    void testsInterpretCodeAndCalculateMixedModeAdd() {
+        int[] program = new int[]{1001, 4, 3, 2, 5};
+        dayFive.interpretCodeAndCalculate(program, 0);
+        assertThat(program[2]).isEqualTo(8);
+    }
+
+    @Test
+    void testsInterpretCodeAndCalculateImmediateModeAdd() {
+        int[] program = new int[]{1101, 4, 3, 4, 0};
+        dayFive.interpretCodeAndCalculate(program, 0);
+        assertThat(program[4]).isEqualTo(7);
+    }
+
+    @Test
+    void testsInterpretCodeAndCalculateMixedModeMultiply() {
+        int[] program = new int[]{1002, 4, 3, 4, 33};
+        dayFive.interpretCodeAndCalculate(program, 0);
+        assertThat(program[4]).isEqualTo(99);
+    }
+
+
 }
