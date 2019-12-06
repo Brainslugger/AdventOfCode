@@ -4,66 +4,55 @@ import com.sun.istack.internal.Nullable;
 
 public class DayFive {
 
-    public int calculate(int[] intCode, int start, @Nullable Integer input) {
+    public int interpretCodeAndCalculate(int[] intCode, int start, @Nullable Integer input) {
         int steps = 0;
-        switch (intCode[start]) {
-            case 1:
-                intCode[intCode[start + 3]] = add(intCode[intCode[start + 1]], intCode[intCode[start + 2]]);
-                steps = 4;
-                break;
-            case 2:
-                intCode[intCode[start + 3]] = multiply(intCode[intCode[start + 1]], intCode[intCode[start + 2]]);
-                steps = 4;
-                break;
-            case 3:
-                intCode[intCode[start + 1]] = input;
-                steps = 2;
-                break;
-            case 4:
-                write(intCode[intCode[start + 1]]);
-                steps = 2;
-                break;
-            default:
-                steps = interpretCodeAndCalculate(intCode, start);
-        }
-        return steps;
-    }
-
-    public int interpretCodeAndCalculate(int[] intCode, int start) {
-        int steps = 0;
-        String code = String.valueOf(intCode[start]);
-        while (code.length() < 4)
-            code = "0" + code;
-        String opcode = code.substring(code.length() - 2, code.length());
-        String parameterOneMode = code.substring(code.length() - 3, code.length() - 2);
+        int instruction = intCode[start];
+        int opcode = instruction % 10;
+        instruction /= 100;
+        int parameterOneMode = instruction % 10;
+        instruction /= 10;
+        int parameterTwoMode = instruction % 10;
+        int paramOne = 0;
         int paramTwo = 0;
         int paramThree = 0;
-        if (!opcode.equals("04")) {
-            String parameterTwoMode = code.substring(code.length() - 4, code.length() - 3);
-            paramTwo = getValueForParam(intCode, start + 2, parameterTwoMode);
-            paramThree = getValueForParam(intCode, start + 3, "0");
-        }
-
-        int paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
 
         switch (opcode) {
-            case "01":
+            case 1:
+            case 2:
+                paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
+                paramTwo = getValueForParam(intCode, start + 2, parameterTwoMode);
+                paramThree = getValueForParam(intCode, start + 3, 1);
+                break;
+            case 3:
+                paramThree = getValueForParam(intCode, start + 3, 1);
+                break;
+            case 4:
+                paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
+
+        }
+
+        switch (opcode) {
+            case 1:
                 intCode[paramThree] = add(paramOne, paramTwo);
                 steps = 4;
                 break;
-            case "02":
+            case 2:
                 intCode[paramThree] = multiply(paramOne, paramTwo);
                 steps = 4;
                 break;
-            case "04":
-                write(paramOne);
+            case 3:
+                intCode[paramThree] = input;
+                steps = 2;
+                break;
+            case 4:
+                output(paramOne);
                 steps = 2;
 
         }
         return steps;
     }
 
-    public void write(int paramOne) {
+    public void output(int paramOne) {
         System.out.print(paramOne);
     }
 
@@ -75,19 +64,18 @@ public class DayFive {
         return paramOne + paramTwo;
     }
 
-    public int getValueForParam(int[] intCode, int position, String parameterMode) {
+    public int getValueForParam(int[] intCode, int position, int parameterMode) {
         int result = 0;
         switch (parameterMode) {
-            case "0":
+            case 0:
                 result = intCode[intCode[position]];
                 break;
-            case "1":
+            case 1:
                 result = intCode[position];
                 break;
         }
         return result;
     }
-
 
     public int[] computeProgram(int[] program, @Nullable Integer input) {
         try {
@@ -96,7 +84,7 @@ public class DayFive {
                 if (program[i] == 99) {
                     return program;
                 } else {
-                    steps = calculate(program, i, input);
+                    steps = interpretCodeAndCalculate(program, i, input);
                     i += steps;
                 }
             }
