@@ -137,4 +137,293 @@ class DayFiveTest {
         dayFive.interpretCodeAndCalculate(program, 0, 100);
         assertThat(program[2]).isEqualTo(100);
     }
+
+    @Test
+    void testsJumpIfTrueValueIsZero() {
+        int result = dayFive.jumpIfTrue(0, 1, 0);
+        assertThat(result).isEqualTo(3);
+    }
+
+    @Test
+    void testsJumpIfFalseValueIsZero() {
+        int result = dayFive.jumpIfFalse(0, 1, 0);
+        assertThat(result).isEqualTo(1);
+    }
+
+    @Test
+    void testsJumpIfFalseValueIsNotZero() {
+        int result = dayFive.jumpIfFalse(20, 1, 0);
+        assertThat(result).isEqualTo(3);
+    }
+
+    @Test
+    void testLessThanIsTrue() {
+        int[] program = new int[]{7, 1, 2, 0};
+        dayFive.lessThan(program[1], program[2], program[3], program);
+        assertThat(program[0]).isEqualTo(1);
+    }
+
+    @Test
+    void testLessThanIsFalse() {
+        int[] program = new int[]{7, 2, 1, 0};
+        dayFive.lessThan(program[1], program[2], program[3], program);
+        assertThat(program[0]).isEqualTo(0);
+    }
+
+    @Test
+    void testisEqualIsTrue() {
+        int[] program = new int[]{7, 1, 1, 0};
+        dayFive.isEqual(program[1], program[2], program[3], program);
+        assertThat(program[0]).isEqualTo(1);
+    }
+
+    @Test
+    void testisEqualIsFalse() {
+        int[] program = new int[]{7, 2, 1, 0};
+        dayFive.lessThan(program[1], program[2], program[3], program);
+        assertThat(program[0]).isEqualTo(0);
+    }
+
+    @Test
+    void testsBasicProgramForIsEqualWithInputPositionMode() {
+        int[] program = new int[]{3, 9, 8, 9, 10, 9, 4, 9, 99, -1, 8};
+        dayFive.computeProgram(program, 8);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsBasicProgramForIsNotEqualWithInputPositionMode() {
+        int[] program = new int[]{3, 9, 8, 9, 10, 9, 4, 9, 99, -1, 8};
+        dayFive.computeProgram(program, 7);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForIsEqualWithInputImmediateMode() {
+        int[] program = new int[]{3, 3, 1108, -1, 8, 3, 4, 3, 99};
+        dayFive.computeProgram(program, 8);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsBasicProgramForIsNotEqualWithInputImmediateMode() {
+        int[] program = new int[]{3, 3, 1108, -1, 8, 3, 4, 3, 99};
+        dayFive.computeProgram(program, 7);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForLessThanWithInputPositionMode() {
+        int[] program = new int[]{3, 9, 7, 9, 10, 9, 4, 9, 99, -1, 8};
+        dayFive.computeProgram(program, 7);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsBasicProgramForIsNotLessThanWithInputPositionMode() {
+        int[] program = new int[]{3, 9, 7, 9, 10, 9, 4, 9, 99, -1, 8};
+        dayFive.computeProgram(program, 8);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForLessThanWithInputImmediateMode() {
+        int[] program = new int[]{3, 9, 7, 9, 10, 9, 4, 9, 99, -1, 8};
+        dayFive.computeProgram(program, 7);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsBasicProgramForIsNotLessThanWithInputImmediateMode() {
+        int[] program = new int[]{3, 3, 1107, -1, 8, 3, 4, 3, 99};
+        dayFive.computeProgram(program, 8);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForJumpsWithInputZeroPositionMode() {
+        int[] program = new int[]{3, 12, 6, 12, 15, 1, 13, 14, 13, 4, 13, 99, -1, 0, 1, 9};
+        dayFive.computeProgram(program, 0);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForJumpsWithInputOnePositionMode() {
+        int[] program = new int[]{3, 12, 6, 12, 15, 1, 13, 14, 13, 4, 13, 99, -1, 0, 1, 9};
+        dayFive.computeProgram(program, 2);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsBasicProgramForJumpsWithInputZeroImmediateMode() {
+        int[] program = new int[]{3, 3, 1105, -1, 9, 1101, 0, 0, 12, 4, 12, 99, 1};
+        dayFive.computeProgram(program, 0);
+        assertThat(outContent.toString()).isEqualTo("0");
+    }
+
+    @Test
+    void testsBasicProgramForJumpsWithInputOneImmediateMode() {
+        int[] program = new int[]{3, 3, 1105, -1, 9, 1101, 0, 0, 12, 4, 12, 99, 1};
+        dayFive.computeProgram(program, 1);
+        assertThat(outContent.toString()).isEqualTo("1");
+    }
+
+    @Test
+    void testsIfInputNumberIsBelowEight() {
+        int[] program = new int[]{3,
+                                  21,
+                                  1008,
+                                  21,
+                                  8,
+                                  20,
+                                  1005,
+                                  20,
+                                  22,
+                                  107,
+                                  8,
+                                  21,
+                                  20,
+                                  1006,
+                                  20,
+                                  31,
+                                  1106,
+                                  0,
+                                  36,
+                                  98,
+                                  0,
+                                  0,
+                                  1002,
+                                  21,
+                                  125,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  104,
+                                  999,
+                                  1105,
+                                  1,
+                                  46,
+                                  1101,
+                                  1000,
+                                  1,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  98,
+                                  99};
+        dayFive.computeProgram(program, 7);
+        assertThat(outContent.toString()).isEqualTo("999");
+    }
+
+    @Test
+    void testsIfInputNumberIsEqualToEight() {
+        int[] program = new int[]{3,
+                                  21,
+                                  1008,
+                                  21,
+                                  8,
+                                  20,
+                                  1005,
+                                  20,
+                                  22,
+                                  107,
+                                  8,
+                                  21,
+                                  20,
+                                  1006,
+                                  20,
+                                  31,
+                                  1106,
+                                  0,
+                                  36,
+                                  98,
+                                  0,
+                                  0,
+                                  1002,
+                                  21,
+                                  125,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  104,
+                                  999,
+                                  1105,
+                                  1,
+                                  46,
+                                  1101,
+                                  1000,
+                                  1,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  98,
+                                  99};
+        dayFive.computeProgram(program, 8);
+        assertThat(outContent.toString()).isEqualTo("1000");
+    }
+
+    @Test
+    void testsIfInputNumberIsAboveEight() {
+        int[] program = new int[]{3,
+                                  21,
+                                  1008,
+                                  21,
+                                  8,
+                                  20,
+                                  1005,
+                                  20,
+                                  22,
+                                  107,
+                                  8,
+                                  21,
+                                  20,
+                                  1006,
+                                  20,
+                                  31,
+                                  1106,
+                                  0,
+                                  36,
+                                  98,
+                                  0,
+                                  0,
+                                  1002,
+                                  21,
+                                  125,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  104,
+                                  999,
+                                  1105,
+                                  1,
+                                  46,
+                                  1101,
+                                  1000,
+                                  1,
+                                  20,
+                                  4,
+                                  20,
+                                  1105,
+                                  1,
+                                  46,
+                                  98,
+                                  99};
+        dayFive.computeProgram(program, 9);
+        assertThat(outContent.toString()).isEqualTo("1001");
+    }
 }

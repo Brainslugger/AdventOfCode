@@ -5,7 +5,7 @@ import com.sun.istack.internal.Nullable;
 public class DayFive {
 
     public int interpretCodeAndCalculate(int[] intCode, int start, @Nullable Integer input) {
-        int steps = 0;
+        int steps = start;
         int instruction = intCode[start];
         int opcode = instruction % 10;
         instruction /= 100;
@@ -19,37 +19,84 @@ public class DayFive {
         switch (opcode) {
             case 1:
             case 2:
+            case 7:
+            case 8:
                 paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
                 paramTwo = getValueForParam(intCode, start + 2, parameterTwoMode);
                 paramThree = getValueForParam(intCode, start + 3, 1);
                 break;
             case 3:
-                paramThree = getValueForParam(intCode, start + 3, 1);
+                paramOne = intCode[start + 1];
                 break;
             case 4:
                 paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
-
+                break;
+            case 5:
+            case 6:
+                paramOne = getValueForParam(intCode, start + 1, parameterOneMode);
+                paramTwo = getValueForParam(intCode, start + 2, parameterTwoMode);
+                break;
         }
 
         switch (opcode) {
             case 1:
                 intCode[paramThree] = add(paramOne, paramTwo);
-                steps = 4;
+                steps += 4;
                 break;
             case 2:
                 intCode[paramThree] = multiply(paramOne, paramTwo);
-                steps = 4;
+                steps += 4;
                 break;
             case 3:
-                intCode[paramThree] = input;
-                steps = 2;
+                intCode[paramOne] = input;
+                steps += 2;
                 break;
             case 4:
                 output(paramOne);
-                steps = 2;
-
+                steps += 2;
+                break;
+            case 5:
+                steps = jumpIfTrue(paramOne, paramTwo, steps);
+                break;
+            case 6:
+                steps = jumpIfFalse(paramOne, paramTwo, steps);
+                break;
+            case 7:
+                lessThan(paramOne, paramTwo, paramThree, intCode);
+                steps += 4;
+                break;
+            case 8:
+                isEqual(paramOne, paramTwo, paramThree, intCode);
+                steps += 4;
+                break;
         }
         return steps;
+    }
+
+    public int jumpIfTrue(int paramOne, int paramTwo, int steps) {
+        if (paramOne == 0) {
+            steps += 3;
+        } else {
+            steps = paramTwo;
+        }
+        return steps;
+    }
+
+    public int jumpIfFalse(int paramOne, int paramTwo, int steps) {
+        if (paramOne == 0) {
+            steps = paramTwo;
+        } else {
+            steps += 3;
+        }
+        return steps;
+    }
+
+    public void lessThan(int paramOne, int paramTwo, int paramThree, int[] intCode) {
+        intCode[paramThree] = paramOne < paramTwo ? 1 : 0;
+    }
+
+    public void isEqual(int paramOne, int paramTwo, int paramThree, int[] intCode) {
+        intCode[paramThree] = paramOne == paramTwo ? 1 : 0;
     }
 
     public void output(int paramOne) {
@@ -79,13 +126,11 @@ public class DayFive {
 
     public int[] computeProgram(int[] program, @Nullable Integer input) {
         try {
-            int steps;
             for (int i = 0; i < program.length; ) {
                 if (program[i] == 99) {
                     return program;
                 } else {
-                    steps = interpretCodeAndCalculate(program, i, input);
-                    i += steps;
+                    i = interpretCodeAndCalculate(program, i, input);
                 }
             }
         } catch (ArrayIndexOutOfBoundsException e) {
