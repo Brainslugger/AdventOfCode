@@ -29,4 +29,9 @@ public class DaySix {
         }
         return 1 + countOrbits(target);
     }
+
+    public int calculateMinimumNumberOfOrbitalTransfers() {
+        int transfers = 0;
+        return 0;
+    }
 }

@@ -85,4 +85,42 @@ class DaySixTest {
         //then
         assertThat(checksum).isEqualTo(42);
     }
+
+    @Test
+    void testsCalculateMinimumNumberOfOrbitalTransfers() {
+        //given
+        String[] input = new String[]{"COM)B",
+                                      "B)C",
+                                      "C)D",
+                                      "D)E",
+                                      "E)F",
+                                      "B)G",
+                                      "G)H",
+                                      "D)I",
+                                      "E)J",
+                                      "J)K",
+                                      "K)L",
+                                      "K)YOU",
+                                      "I)SAN"};
+        HashMap<String, String> result = new HashMap<>();
+        result.put("B", "COM");
+        result.put("C", "B");
+        result.put("D", "C");
+        result.put("E", "D");
+        result.put("F", "E");
+        result.put("G", "B");
+        result.put("H", "G");
+        result.put("I", "D");
+        result.put("J", "E");
+        result.put("K", "J");
+        result.put("L", "K");
+        result.put("YOU", "K");
+        result.put("SAN", "I");
+
+        //when
+        daySix.createOrbitMap(input);
+        int checksum = daySix.calculateMinimumNumberOfOrbitalTransfers();
+        //then
+        assertThat(checksum).isEqualTo(42);
+    }
 }
