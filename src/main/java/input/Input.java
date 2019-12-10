@@ -1,6 +1,7 @@
 package input;
 
 public class Input {
+
     public static int[] dayOne = new int[]{125050,
                                            115884,
                                            132344,
@@ -94,37 +95,15 @@ public class Input {
                                            107998,
                                            148696,
                                            122793,
-                                           135417, 52981, 122890, 142491, 88137, 57609, 54921};
-    public int[] intCode = new int[]{1,
-                                     0,
-                                     0,
-                                     3,
-                                     1,
-                                     1,
-                                     2,
-                                     3,
-                                     1,
-                                     3,
-                                     4,
-                                     3,
-                                     1,
-                                     5,
-                                     0,
-                                     3,
-                                     2,
-                                     1,
-                                     10,
-                                     19,
-                                     1,
-                                     19,
-                                     5,
-                                     23,
-                                     2,
-                                     23,
-                                     9,
-                                     27,
-                                     1,
-                                     5,
+                                           135417,
+                                           52981,
+                                           122890,
+                                           142491,
+                                           88137,
+                                           57609,
+                                           54921};
+    public int[] intCode =
+        new int[]{1, 0, 0, 3, 1, 1, 2, 3, 1, 3, 4, 3, 1, 5, 0, 3, 2, 1, 10, 19, 1, 19, 5, 23, 2, 23, 9, 27, 1, 5,
                                      27,
                                      31,
                                      1,
@@ -934,1364 +913,1364 @@ public class Input {
                                             223,
                                             223,
                                             1006,
-            224,
-            674,
-            101,
-            1,
-            223,
-            223,
-            4,
-            223,
-            99,
-            226};
-    public String orbitMap = "6TJ)DQ7\n" +
-            "Q64)6PD\n" +
-            "9K5)F2C\n" +
-            "NRH)456\n" +
-            "Y7M)3FZ\n" +
-            "SFM)RHP\n" +
-            "PX5)FTR\n" +
-            "RC8)8DP\n" +
-            "3KT)XLP\n" +
-            "4GC)ZBW\n" +
-            "51K)DJQ\n" +
-            "24V)4F3\n" +
-            "4CR)C5D\n" +
-            "RXZ)J74\n" +
-            "9YN)M5V\n" +
-            "4WK)S9L\n" +
-            "ZHC)XQJ\n" +
-            "7L9)Y1Z\n" +
-            "HRS)VZB\n" +
-            "C41)9SZ\n" +
-            "V8V)DXG\n" +
-            "1J4)GGW\n" +
-            "BZF)D86\n" +
-            "B16)WW2\n" +
-            "RK4)HZT\n" +
-            "HRF)Q3M\n" +
-            "GQJ)K6C\n" +
-            "WC1)918\n" +
-            "S4T)YHG\n" +
-            "L6V)THN\n" +
-            "VFP)FG3\n" +
-            "G4K)M4S\n" +
-            "BRH)7QS\n" +
-            "J7D)ZWP\n" +
-            "BKS)86D\n" +
-            "FNK)8Y9\n" +
-            "L7N)LSW\n" +
-            "XGD)SSD\n" +
-            "V79)7F3\n" +
-            "7J4)FSR\n" +
-            "BN1)V6L\n" +
-            "8VP)82W\n" +
-            "9YZ)1JB\n" +
-            "7LM)M16\n" +
-            "M1X)P72\n" +
-            "ZYV)9WT\n" +
-            "N6F)RX5\n" +
-            "FNK)SQR\n" +
-            "MSK)FYY\n" +
-            "ZQQ)1KS\n" +
-            "K15)BFM\n" +
-            "QHP)ZRP\n" +
-            "C2W)2SM\n" +
-            "CGC)631\n" +
-            "CZB)5PS\n" +
-            "7FY)4TS\n" +
-            "T24)F53\n" +
-            "LPY)L7N\n" +
-            "TG1)QVP\n" +
-            "M5V)248\n" +
-            "B3G)N85\n" +
-            "YZG)JWC\n" +
-            "R4H)XGS\n" +
-            "ZHN)C2V\n" +
-            "3TN)WPF\n" +
-            "218)ZQ3\n" +
-            "HL6)KQL\n" +
-            "917)S6P\n" +
-            "Y3N)FLV\n" +
-            "Y9H)J3G\n" +
-            "RVZ)GPX\n" +
-            "KBG)ZK1\n" +
-            "VP5)ZNS\n" +
-            "R27)43Z\n" +
-            "JLM)XGW\n" +
-            "R5M)MYB\n" +
-            "D1R)38M\n" +
-            "CGL)C9R\n" +
-            "ZYR)SWB\n" +
-            "R65)WYB\n" +
-            "DZX)N3S\n" +
-            "ZLF)P7B\n" +
-            "3JG)GPL\n" +
-            "WMY)6HY\n" +
-            "KTF)619\n" +
-            "RKS)JK4\n" +
-            "CJB)F1N\n" +
-            "J69)CJB\n" +
-            "GFC)CVX\n" +
-            "4C8)T1F\n" +
-            "SSD)389\n" +
-            "LYR)WR7\n" +
-            "99Y)188\n" +
-            "3YC)Q7Z\n" +
-            "4BB)ZHK\n" +
-            "8LY)JYN\n" +
-            "WMB)X2L\n" +
-            "B7L)KSZ\n" +
-            "G2J)3JG\n" +
-            "C1X)SHP\n" +
-            "3Q4)7JH\n" +
-            "CQS)HDY\n" +
-            "1XL)JTM\n" +
-            "BGY)19Q\n" +
-            "N85)2D3\n" +
-            "SQR)8V5\n" +
-            "3PD)HVF\n" +
-            "Q13)N43\n" +
-            "3FV)MLH\n" +
-            "662)GL8\n" +
-            "1ZR)3DL\n" +
-            "RZB)P1V\n" +
-            "CJB)MBZ\n" +
-            "HLZ)9FT\n" +
-            "77R)DWB\n" +
-            "5N2)4CR\n" +
-            "PMX)WMY\n" +
-            "8TD)11L\n" +
-            "2JN)H1W\n" +
-            "VN8)KVV\n" +
-            "4W2)FQ2\n" +
-            "6Y1)Y7G\n" +
-            "VGK)CXF\n" +
-            "VM9)1VZ\n" +
-            "MHR)67K\n" +
-            "RH9)88M\n" +
-            "X3G)L9Y\n" +
-            "BBX)PHF\n" +
-            "VCS)26F\n" +
-            "51T)K1Q\n" +
-            "ZJL)YPP\n" +
-            "Q8Z)Q64\n" +
-            "9RP)H64\n" +
-            "8RX)VZD\n" +
-            "59F)16L\n" +
-            "6T5)8QP\n" +
-            "CJG)2DD\n" +
-            "748)JN5\n" +
-            "NGC)N3V\n" +
-            "BVN)Y7L\n" +
-            "S26)Y3N\n" +
-            "R7M)WCJ\n" +
-            "CQS)WJ5\n" +
-            "57T)RVJ\n" +
-            "BP7)WC2\n" +
-            "BW7)LB9\n" +
-            "ZH9)VW7\n" +
-            "X8R)K7M\n" +
-            "RJW)5WQ\n" +
-            "KQV)HB2\n" +
-            "HJ7)9RP\n" +
-            "KYM)ZNY\n" +
-            "5PS)TCD\n" +
-            "PB7)RSP\n" +
-            "BR8)DC8\n" +
-            "JM4)W61\n" +
-            "H7W)BJB\n" +
-            "NRW)56F\n" +
-            "1NV)169\n" +
-            "38M)JLM\n" +
-            "J7D)8VB\n" +
-            "4H9)1GZ\n" +
-            "BC1)Y9S\n" +
-            "C9R)6L3\n" +
-            "L4X)Y8Q\n" +
-            "MP6)WLZ\n" +
-            "HZT)Y3X\n" +
-            "PXN)637\n" +
-            "GCS)ZT1\n" +
-            "G84)BW7\n" +
-            "9T5)4L2\n" +
-            "MJQ)R28\n" +
-            "3R7)9CC\n" +
-            "HVX)6V4\n" +
-            "9Y2)GW6\n" +
-            "S3F)TPP\n" +
-            "C39)LTB\n" +
-            "MYB)SHN\n" +
-            "5ZC)WBC\n" +
-            "ZWP)SJQ\n" +
-            "8QD)MKV\n" +
-            "TKZ)KKR\n" +
-            "7J4)B8T\n" +
-            "R52)295\n" +
-            "BRR)PV3\n" +
-            "THN)3DM\n" +
-            "S42)R1D\n" +
-            "FD8)QJ4\n" +
-            "WB1)RYK\n" +
-            "6JL)2JR\n" +
-            "631)RWV\n" +
-            "C5T)NLD\n" +
-            "CC4)KNF\n" +
-            "SJL)4C8\n" +
-            "QNV)T5P\n" +
-            "D5D)D6P\n" +
-            "Y97)Q2G\n" +
-            "7C7)Z8T\n" +
-            "5BS)B9C\n" +
-            "BWQ)WM6\n" +
-            "T5P)SPN\n" +
-            "3DL)YV4\n" +
-            "Q34)GCS\n" +
-            "W71)GP1\n" +
-            "GDZ)CH6\n" +
-            "WT6)S3F\n" +
-            "16L)THM\n" +
-            "CPY)XDC\n" +
-            "P48)BP5\n" +
-            "V9C)PM1\n" +
-            "FFP)QWN\n" +
-            "V9C)8RX\n" +
-            "9T9)HDD\n" +
-            "WYW)48L\n" +
-            "VJP)S26\n" +
-            "3B9)N7H\n" +
-            "88M)RJ3\n" +
-            "8YV)NHS\n" +
-            "QDV)47S\n" +
-            "3WJ)YOU\n" +
-            "M2Z)33N\n" +
-            "6L3)2RZ\n" +
-            "JGL)L92\n" +
-            "NP3)L6G\n" +
-            "BDW)M4Z\n" +
-            "C1X)8VP\n" +
-            "484)7PL\n" +
-            "VX3)GGQ\n" +
-            "RK8)ZRZ\n" +
-            "F4N)MRT\n" +
-            "NJK)XH1\n" +
-            "VDN)X4J\n" +
-            "SHN)YQ1\n" +
-            "KZ4)5LS\n" +
-            "C75)K15\n" +
-            "S5J)265\n" +
-            "DJQ)8LR\n" +
-            "MSP)BTB\n" +
-            "2M8)7BN\n" +
-            "H9J)J3Z\n" +
-            "BSR)421\n" +
-            "1J4)HBR\n" +
-            "CLK)V8D\n" +
-            "VZB)DYF\n" +
-            "4WN)GB7\n" +
-            "MGD)BML\n" +
-            "5VY)3DJ\n" +
-            "H8F)B3G\n" +
-            "M9L)YSL\n" +
-            "K3N)DCV\n" +
-            "BLV)95B\n" +
-            "QMY)RHH\n" +
-            "9TF)J5F\n" +
-            "29Q)6JL\n" +
-            "QDV)PNS\n" +
-            "Y2P)SST\n" +
-            "NK9)H5Q\n" +
-            "1JB)V79\n" +
-            "ZY7)1LF\n" +
-            "F53)K5Z\n" +
-            "BP5)R4H\n" +
-            "SMJ)TZV\n" +
-            "LCW)8GV\n" +
-            "L5H)3LJ\n" +
-            "J1X)JS5\n" +
-            "S9L)FD8\n" +
-            "28Z)5G3\n" +
-            "29D)QFT\n" +
-            "M7X)DZ1\n" +
-            "G4L)WN6\n" +
-            "2M1)DDW\n" +
-            "77R)PR6\n" +
-            "SWM)TQP\n" +
-            "DC8)VM9\n" +
-            "CYX)SJL\n" +
-            "ZRZ)HSJ\n" +
-            "XP4)BRH\n" +
-            "8HG)HT6\n" +
-            "D3Y)59Z\n" +
-            "KVV)3SL\n" +
-            "WNQ)LBL\n" +
-            "CJ1)5BS\n" +
-            "19Q)C5C\n" +
-            "NWH)XCC\n" +
-            "PXS)KKB\n" +
-            "F8P)BLG\n" +
-            "WR7)8ND\n" +
-            "K6C)BDW\n" +
-            "YHG)R2F\n" +
-            "2JR)R4P\n" +
-            "619)Z1X\n" +
-            "93D)BZF\n" +
-            "51H)Z9H\n" +
-            "9WB)9SV\n" +
-            "SFM)H7W\n" +
-            "K7P)Y65\n" +
-            "B8T)CTK\n" +
-            "2DD)9VC\n" +
-            "ZM4)TQZ\n" +
-            "733)17J\n" +
-            "FCM)8V4\n" +
-            "CHH)4W3\n" +
-            "G2S)XLB\n" +
-            "BQC)1XL\n" +
-            "WFM)NH4\n" +
-            "927)CFB\n" +
-            "J74)3W8\n" +
-            "SDC)9WB\n" +
-            "Q79)RWL\n" +
-            "46L)P8L\n" +
-            "T1F)4G3\n" +
-            "1N3)VX3\n" +
-            "4KG)111\n" +
-            "Z4L)BC1\n" +
-            "QH5)GP2\n" +
-            "3R7)VLV\n" +
-            "F3H)PKS\n" +
-            "Z8D)VLR\n" +
-            "YZC)78K\n" +
-            "3XL)VCB\n" +
-            "L9L)Z8D\n" +
-            "44K)WNQ\n" +
-            "6Z1)3WJ\n" +
-            "78S)FVB\n" +
-            "D1C)HNG\n" +
-            "GJG)MWM\n" +
-            "W7J)RX6\n" +
-            "7PL)QCB\n" +
-            "KRQ)XP1\n" +
-            "BWQ)3ST\n" +
-            "XMF)1DS\n" +
-            "R7V)Z4L\n" +
-            "FCS)MZP\n" +
-            "5SF)W2W\n" +
-            "HCK)H72\n" +
-            "ZY2)N6F\n" +
-            "7FY)BNM\n" +
-            "1ZP)NJK\n" +
-            "Y87)Q4S\n" +
-            "898)YD1\n" +
-            "8K6)P9Q\n" +
-            "ZG3)13D\n" +
-            "XLB)MP6\n" +
-            "QPD)3TP\n" +
-            "R1R)KQN\n" +
-            "VFF)TQK\n" +
-            "SGZ)832\n" +
-            "Z3F)QPD\n" +
-            "LTB)8QD\n" +
-            "N3S)FFP\n" +
-            "S5X)2WN\n" +
-            "HDD)RC8\n" +
-            "6JN)Q9M\n" +
-            "9TV)PJ8\n" +
-            "1W5)SGZ\n" +
-            "55F)RLD\n" +
-            "J83)6YG\n" +
-            "TK4)RZ8\n" +
-            "TSD)CPY\n" +
-            "78W)C3L\n" +
-            "8VP)CST\n" +
-            "13D)NCH\n" +
-            "MP5)HT2\n" +
-            "5PZ)ZDB\n" +
-            "WYS)J2F\n" +
-            "L7Q)V4X\n" +
-            "6V4)59F\n" +
-            "RS2)SW6\n" +
-            "3DJ)L7Q\n" +
-            "3LJ)NWH\n" +
-            "4F3)6Z1\n" +
-            "SJZ)QHP\n" +
-            "94Q)5V7\n" +
-            "4W3)L5J\n" +
-            "52V)64D\n" +
-            "V7G)C27\n" +
-            "FTR)NPC\n" +
-            "MPT)K8K\n" +
-            "CVX)X3G\n" +
-            "9WN)5FX\n" +
-            "NLD)TG1\n" +
-            "Q2F)V3G\n" +
-            "WW2)YRT\n" +
-            "LBC)QSZ\n" +
-            "SZP)4KV\n" +
-            "ZNY)K3N\n" +
-            "YWP)T24\n" +
-            "LYF)JV8\n" +
-            "FGP)4TJ\n" +
-            "H6G)7Y8\n" +
-            "5JV)8D1\n" +
-            "KKB)6TJ\n" +
-            "2SZ)5DY\n" +
-            "QWY)ZY2\n" +
-            "MBN)RZF\n" +
-            "N79)N7S\n" +
-            "B29)3J2\n" +
-            "Y7G)N5K\n" +
-            "6W8)C38\n" +
-            "DVY)TJP\n" +
-            "78K)RJW\n" +
-            "HT6)HKG\n" +
-            "VHL)NK9\n" +
-            "GGW)X8G\n" +
-            "RMP)B4T\n" +
-            "DRD)B16\n" +
-            "KSZ)RPM\n" +
-            "R1D)YWS\n" +
-            "RHH)WG6\n" +
-            "BML)W11\n" +
-            "DWB)4YF\n" +
-            "WJ5)4KG\n" +
-            "F9J)RPT\n" +
-            "J1X)B29\n" +
-            "JK4)HS1\n" +
-            "RK4)52V\n" +
-            "TZ1)CC4\n" +
-            "21W)4PM\n" +
-            "RX5)KMC\n" +
-            "M1X)N7V\n" +
-            "SP4)Z3W\n" +
-            "LYH)8HG\n" +
-            "95S)Y3Q\n" +
-            "SW6)5PZ\n" +
-            "2N3)46L\n" +
-            "PCX)5YW\n" +
-            "VLB)HF2\n" +
-            "RJJ)GJG\n" +
-            "Q95)3W1\n" +
-            "SP1)86H\n" +
-            "4ZR)8X5\n" +
-            "Y8Q)GNY\n" +
-            "YRC)9K5\n" +
-            "GL8)QDR\n" +
-            "TSZ)13Q\n" +
-            "D4C)F8X\n" +
-            "436)D3Y\n" +
-            "Z3F)2BX\n" +
-            "VKM)PWT\n" +
-            "MM5)M8G\n" +
-            "KVB)MT3\n" +
-            "WWW)N79\n" +
-            "S8F)1N3\n" +
-            "8DP)M79\n" +
-            "GQP)2QL\n" +
-            "7VR)8G8\n" +
-            "PD7)R3M\n" +
-            "94D)564\n" +
-            "5XP)WL1\n" +
-            "8LY)P9J\n" +
-            "D3D)94L\n" +
-            "56F)2BK\n" +
-            "NCS)BQC\n" +
-            "4GZ)S5J\n" +
-            "GM2)NRH\n" +
-            "XGW)1MC\n" +
-            "ZDB)K35\n" +
-            "ZRP)CDL\n" +
-            "SYH)J7T\n" +
-            "Q4S)KBG\n" +
-            "K7M)G3Q\n" +
-            "9PG)N91\n" +
-            "J7T)LRH\n" +
-            "2ND)Z3F\n" +
-            "9T9)CJ1\n" +
-            "ZR5)FDC\n" +
-            "26F)L5H\n" +
-            "4FK)Z4N\n" +
-            "3PP)BHG\n" +
-            "BN1)QVM\n" +
-            "JN5)FF7\n" +
-            "ZH4)SWM\n" +
-            "Z3W)XVK\n" +
-            "VPD)G3Z\n" +
-            "K15)VKM\n" +
-            "7H3)9LV\n" +
-            "HCK)KRQ\n" +
-            "TZV)ZY7\n" +
-            "LDW)CLK\n" +
-            "3DM)C4J\n" +
-            "MRT)29D\n" +
-            "5Y3)XYV\n" +
-            "5RK)6N6\n" +
-            "L21)JDN\n" +
-            "T43)24V\n" +
-            "BNM)4VT\n" +
-            "DMJ)2VZ\n" +
-            "CJ1)4H9\n" +
-            "9C5)V9C\n" +
-            "3JF)1X4\n" +
-            "8V4)ZKW\n" +
-            "42N)62V\n" +
-            "WSL)TTL\n" +
-            "KG6)SM4\n" +
-            "9VC)662\n" +
-            "1VZ)Y97\n" +
-            "1BD)B4B\n" +
-            "P9Q)R65\n" +
-            "918)9M1\n" +
-            "XP1)4W2\n" +
-            "XPY)46Y\n" +
-            "3XW)YR6\n" +
-            "HZY)Q5G\n" +
-            "DQ7)VHL\n" +
-            "J2F)ZZG\n" +
-            "Q5G)28Z\n" +
-            "Z1X)HZY\n" +
-            "7V3)FBS\n" +
-            "48L)LZB\n" +
-            "HVG)TSD\n" +
-            "HHY)KQV\n" +
-            "MBB)CTM\n" +
-            "HB2)LD7\n" +
-            "9DW)Q95\n" +
-            "446)3Q4\n" +
-            "LBT)GFS\n" +
-            "5RB)C5T\n" +
-            "Z68)PNV\n" +
-            "NJ7)TMH\n" +
-            "VBT)M7W\n" +
-            "QVP)Q2S\n" +
-            "YSZ)R5M\n" +
-            "7QS)LZW\n" +
-            "Q3K)B6R\n" +
-            "C39)HRF\n" +
-            "74S)1FV\n" +
-            "BMZ)RSC\n" +
-            "4WR)M3P\n" +
-            "ZFQ)7RW\n" +
-            "XPY)JKH\n" +
-            "D6P)FDL\n" +
-            "RHP)JRW\n" +
-            "6YP)LNN\n" +
-            "Y3Q)C9K\n" +
-            "9FT)SZP\n" +
-            "D6V)PD7\n" +
-            "QY7)51K\n" +
-            "ZS7)2BH\n" +
-            "J5F)ZG3\n" +
-            "S7L)WN4\n" +
-            "F8X)9S3\n" +
-            "VG5)S1L\n" +
-            "YV4)ZHN\n" +
-            "G3Z)Q8Z\n" +
-            "V8D)C9T\n" +
-            "389)VF8\n" +
-            "J2F)9ZS\n" +
-            "H8F)R31\n" +
-            "43Z)2S4\n" +
-            "GFS)74R\n" +
-            "LT1)CQV\n" +
-            "TJP)TBG\n" +
-            "XBV)DZT\n" +
-            "KV8)T6V\n" +
-            "5YN)MGD\n" +
-            "7RF)P2D\n" +
-            "46Y)J7D\n" +
-            "B41)FSZ\n" +
-            "B6T)34W\n" +
-            "XGX)Z6W\n" +
-            "564)M39\n" +
-            "94L)HJ7\n" +
-            "8DG)K51\n" +
-            "XH5)3GT\n" +
-            "DZM)JSS\n" +
-            "X2L)LZX\n" +
-            "RQT)VCS\n" +
-            "JSS)XVB\n" +
-            "93M)Y87\n" +
-            "9SQ)D5D\n" +
-            "6YG)6X2\n" +
-            "J3M)Y7M\n" +
-            "K75)9KN\n" +
-            "NH4)9FH\n" +
-            "8NV)2X6\n" +
-            "Y9S)Z48\n" +
-            "8BV)2M1\n" +
-            "2YJ)2ND\n" +
-            "M4S)WCZ\n" +
-            "HJG)NYK\n" +
-            "WM6)KQP\n" +
-            "N7L)FGP\n" +
-            "9NC)LKP\n" +
-            "BSV)FHP\n" +
-            "G39)5Y3\n" +
-            "P52)FNK\n" +
-            "LG7)ZSD\n" +
-            "9M1)ZCL\n" +
-            "1BM)C6N\n" +
-            "V3G)9T5\n" +
-            "18V)YHM\n" +
-            "COM)Q3K\n" +
-            "PB2)Q13\n" +
-            "LZW)7HR\n" +
-            "8LR)D5X\n" +
-            "W4Z)BBX\n" +
-            "HVF)25Q\n" +
-            "2M1)1DQ\n" +
-            "ZHK)3PP\n" +
-            "WC2)KCX\n" +
-            "VQV)5GS\n" +
-            "QVM)WYW\n" +
-            "C9K)W2N\n" +
-            "ZGC)CJG\n" +
-            "TWJ)7LL\n" +
-            "DZ1)SDC\n" +
-            "9FS)8XV\n" +
-            "9FH)MP5\n" +
-            "J3Z)MHR\n" +
-            "NG8)4FK\n" +
-            "CNQ)1RR\n" +
-            "4L2)QMY\n" +
-            "QSZ)NCV\n" +
-            "H8Q)PWS\n" +
-            "1V8)GMS\n" +
-            "QPN)XGD\n" +
-            "RPJ)T1J\n" +
-            "48L)PTK\n" +
-            "4YD)KYM\n" +
-            "B16)C41\n" +
-            "CDF)GSC\n" +
-            "77N)622\n" +
-            "QCB)SYH\n" +
-            "RDK)Q34\n" +
-            "7Y8)S5V\n" +
-            "N1D)L6V\n" +
-            "M1T)P48\n" +
-            "GRY)1GW\n" +
-            "D7D)D3D\n" +
-            "QQK)DL3\n" +
-            "6PD)8R8\n" +
-            "GP2)S5G\n" +
-            "HFW)4MC\n" +
-            "111)9TV\n" +
-            "LQQ)HJG\n" +
-            "TQK)Z68\n" +
-            "BJB)DT6\n" +
-            "1GZ)Z7F\n" +
-            "XDC)N1D\n" +
-            "5VR)B41\n" +
-            "418)B4J\n" +
-            "D9F)XY6\n" +
-            "P1V)WYS\n" +
-            "9CC)NQK\n" +
-            "KRL)656\n" +
-            "XY6)917\n" +
-            "34W)CQS\n" +
-            "JDN)SS9\n" +
-            "KG8)8DG\n" +
-            "CXF)L95\n" +
-            "Y2J)MPT\n" +
-            "H5Q)3WS\n" +
-            "LVL)J3M\n" +
-            "LGF)YHN\n" +
-            "FDL)N7L\n" +
-            "WT2)9NC\n" +
-            "HF2)VYL\n" +
-            "622)Z5F\n" +
-            "5S5)QGS\n" +
-            "QSH)H6G\n" +
-            "FG3)ZD3\n" +
-            "816)1B9\n" +
-            "K51)7RF\n" +
-            "N91)95S\n" +
-            "3CJ)P9G\n" +
-            "NXS)PMX\n" +
-            "D1C)GY8\n" +
-            "13D)QDV\n" +
-            "GYD)Q2F\n" +
-            "MK4)HL6\n" +
-            "VCB)DF3\n" +
-            "8S6)LT1\n" +
-            "Z6W)ZRM\n" +
-            "B4J)4WK\n" +
-            "5JF)GDZ\n" +
-            "H3X)4GC\n" +
-            "MQC)R27\n" +
-            "8GY)7TT\n" +
-            "Z5F)KST\n" +
-            "HPH)JGB\n" +
-            "PV3)9YN\n" +
-            "YRC)BZX\n" +
-            "JWC)3JF\n" +
-            "62V)Q8V\n" +
-            "V9V)53P\n" +
-            "P2D)XH5\n" +
-            "3QP)DMJ\n" +
-            "HBR)XGX\n" +
-            "LJR)JNS\n" +
-            "7WB)5JF\n" +
-            "P7B)55F\n" +
-            "L6G)WFM\n" +
-            "QW6)F4N\n" +
-            "HQJ)LGS\n" +
-            "8VB)WC1\n" +
-            "637)94Q\n" +
-            "4Z1)96W\n" +
-            "3Q2)LGF\n" +
-            "N5K)J69\n" +
-            "RC3)X63\n" +
-            "9GD)LQ5\n" +
-            "NKB)NRW\n" +
-            "4V1)DNY\n" +
-            "CK4)5RB\n" +
-            "P1V)35T\n" +
-            "M39)LDW\n" +
-            "DT6)K5C\n" +
-            "LGF)SMJ\n" +
-            "67J)WH8\n" +
-            "839)8X6\n" +
-            "Q3K)L7Y\n" +
-            "N8R)DZ8\n" +
-            "NLD)BG7\n" +
-            "4K6)6CT\n" +
-            "3JN)BR6\n" +
-            "8ZY)9RQ\n" +
-            "1KS)F9J\n" +
-            "ZL4)LJR\n" +
-            "4FC)7J4\n" +
-            "RPM)M33\n" +
-            "XYV)V35\n" +
-            "F7K)9T9\n" +
-            "N1S)WB4\n" +
-            "C5C)8BV\n" +
-            "RSC)CNQ\n" +
-            "7TQ)QQK\n" +
-            "K58)5VR\n" +
-            "H6R)23Q\n" +
-            "LGS)9F5\n" +
-            "G1S)N1S\n" +
-            "9LV)KB6\n" +
-            "Y3D)5YN\n" +
-            "PX5)5S5\n" +
-            "XCC)H9J\n" +
-            "YHN)YQS\n" +
-            "CDL)W4Z\n" +
-            "3Q9)VFF\n" +
-            "J7T)112\n" +
-            "WH8)Z33\n" +
-            "Q8T)RK8\n" +
-            "GRY)X8D\n" +
-            "VW7)1B6\n" +
-            "WL1)MM5\n" +
-            "M33)NXS\n" +
-            "2S4)BYM\n" +
-            "X63)JPZ\n" +
-            "28D)V1F\n" +
-            "TTJ)161\n" +
-            "2DF)RMP\n" +
-            "D6Y)CDF\n" +
-            "JYN)TYS\n" +
-            "QFT)9SQ\n" +
-            "GPL)KX1\n" +
-            "35T)6YP\n" +
-            "9DY)D6V\n" +
-            "13Q)TK4\n" +
-            "K6V)7YK\n" +
-            "21B)L9L\n" +
-            "MF8)NM2\n" +
-            "VZK)6XC\n" +
-            "TTL)425\n" +
-            "6X2)RDK\n" +
-            "95S)WMB\n" +
-            "4Z6)D1R\n" +
-            "JNS)K7P\n" +
-            "JS5)1V8\n" +
-            "VLR)43P\n" +
-            "6N2)77N\n" +
-            "BFQ)Q1Q\n" +
-            "TBG)NJ7\n" +
-            "2D3)3JN\n" +
-            "JPZ)CL5\n" +
-            "5DY)5RK\n" +
-            "3PD)T52\n" +
-            "TMH)8B7\n" +
-            "LLW)NKR\n" +
-            "XB1)HCK\n" +
-            "7F3)S9Q\n" +
-            "Z68)RJJ\n" +
-            "4VT)3KT\n" +
-            "L7Y)KG6\n" +
-            "29W)25N\n" +
-            "PKS)N9G\n" +
-            "3MW)V7G\n" +
-            "112)4D2\n" +
-            "DYC)CGC\n" +
-            "3FZ)S42\n" +
-            "Y9H)DD7\n" +
-            "NBB)Q2Y\n" +
-            "Z39)MJT\n" +
-            "9S3)3FK\n" +
-            "LRH)V9V\n" +
-            "RQG)MLF\n" +
-            "4FC)29Q\n" +
-            "TQP)M6S\n" +
-            "1B6)8TD\n" +
-            "4WK)S4T\n" +
-            "T3B)CHP\n" +
-            "B6R)77R\n" +
-            "G6D)ZL4\n" +
-            "416)PRQ\n" +
-            "RP9)RS2\n" +
-            "Q1T)18V\n" +
-            "N7V)LYH\n" +
-            "265)1YW\n" +
-            "C2V)KKP\n" +
-            "RZF)QSH\n" +
-            "SGM)ZJL\n" +
-            "6HY)8YV\n" +
-            "YQS)S8F\n" +
-            "GSC)1J4\n" +
-            "53P)TZ1\n" +
-            "T52)DMN\n" +
-            "L9Y)B6H\n" +
-            "XH1)436\n" +
-            "6WZ)GQN\n" +
-            "MXK)D2T\n" +
-            "SS9)HPH\n" +
-            "S4V)QRJ\n" +
-            "ZRM)5JV\n" +
-            "59X)9PG\n" +
-            "2X6)M1X\n" +
-            "MTV)PW6\n" +
-            "R1F)DZM\n" +
-            "2FH)28D\n" +
-            "H1K)6N2\n" +
-            "3GT)3Q9\n" +
-            "KST)Q1T\n" +
-            "M6S)3TN\n" +
-            "SJQ)CYX\n" +
-            "MP5)B5J\n" +
-            "SHP)67J\n" +
-            "ZCL)J2S\n" +
-            "1RR)YK9\n" +
-            "V8M)MBN\n" +
-            "MRT)Z8Q\n" +
-            "K5Z)839\n" +
-            "BTB)FP1\n" +
-            "XVV)KLG\n" +
-            "8XK)SYB\n" +
-            "W71)Z39\n" +
-            "GB7)93C\n" +
-            "LQ5)RXZ\n" +
-            "THM)ZQQ\n" +
-            "NVV)ZGC\n" +
-            "TSG)5GG\n" +
-            "YPP)BSV\n" +
-            "S87)ZBD\n" +
-            "NCZ)7MJ\n" +
-            "TQZ)3XL\n" +
-            "3ST)GTF\n" +
-            "L95)8ZY\n" +
-            "H1W)8V8\n" +
-            "NYK)7BF\n" +
-            "B9C)1NV\n" +
-            "1GZ)9C5\n" +
-            "K1Q)4V1\n" +
-            "Q2G)RZB\n" +
-            "G1S)93M\n" +
-            "RRB)G4L\n" +
-            "TWR)VJP\n" +
-            "SXN)HFQ\n" +
-            "Q5V)RN6\n" +
-            "NCV)PB7\n" +
-            "Q1Q)9DY\n" +
-            "ZM4)C75\n" +
-            "7RW)6BD\n" +
-            "RCQ)FWP\n" +
-            "DF3)RDV\n" +
-            "QHP)ZPK\n" +
-            "C78)8LY\n" +
-            "92N)N8W\n" +
-            "QK6)YF4\n" +
-            "PTK)J1X\n" +
-            "LD7)NCG\n" +
-            "1QM)XLX\n" +
-            "W2W)FYG\n" +
-            "25N)J19\n" +
-            "SKS)1BM\n" +
-            "J57)C78\n" +
-            "T6P)RC3\n" +
-            "PW6)9FS\n" +
-            "TWR)B2J\n" +
-            "S3F)GQP\n" +
-            "7JH)L1H\n" +
-            "48H)VBT\n" +
-            "WCX)DVY\n" +
-            "5XL)WYH\n" +
-            "H6F)MSK\n" +
-            "FLV)3X9\n" +
-            "JGB)4GZ\n" +
-            "LNN)VLK\n" +
-            "1T5)QTX\n" +
-            "SST)RK4\n" +
-            "DNY)TSZ\n" +
-            "M4Z)48H\n" +
-            "3FK)LQQ\n" +
-            "B4B)7H3\n" +
-            "QFY)JM4\n" +
-            "SYB)MXK\n" +
-            "74R)WT6\n" +
-            "C3L)P44\n" +
-            "95B)78S\n" +
-            "2VZ)SJZ\n" +
-            "1NY)5N2\n" +
-            "5GS)TTJ\n" +
-            "PWT)4K6\n" +
-            "JKH)BVN\n" +
-            "93C)LVQ\n" +
-            "SPN)GFC\n" +
-            "72M)NBB\n" +
-            "Y3X)3QB\n" +
-            "8NH)416\n" +
-            "ZNS)XPY\n" +
-            "3QJ)ZJ3\n" +
-            "859)NP3\n" +
-            "XVK)3FV\n" +
-            "8FZ)BWW\n" +
-            "FYY)MSP\n" +
-            "B5J)81G\n" +
-            "TGW)SGM\n" +
-            "61H)TDB\n" +
-            "Z7F)BMZ\n" +
-            "5FX)JVP\n" +
-            "1LF)S1Y\n" +
-            "WYB)HVS\n" +
-            "3W1)VPD\n" +
-            "NQK)446\n" +
-            "5PS)HQJ\n" +
-            "H64)D6Y\n" +
-            "RX6)M2Z\n" +
-            "W61)NMJ\n" +
-            "CHH)BGY\n" +
-            "7TT)LCW\n" +
-            "LBL)G1S\n" +
-            "PJ8)XD8\n" +
-            "D1R)XXJ\n" +
-            "CV6)KJ2\n" +
-            "3TP)ZH9\n" +
-            "KJ2)847\n" +
-            "126)XB1\n" +
-            "1KH)TNT\n" +
-            "TS8)CV6\n" +
-            "FBS)9TF\n" +
-            "NHS)3QJ\n" +
-            "FP1)1BD\n" +
-            "SWB)87F\n" +
-            "ZKT)QX7\n" +
-            "1ZR)1QM\n" +
-            "QX7)56W\n" +
-            "59Z)ZLF\n" +
-            "XLX)4JQ\n" +
-            "B3S)W7J\n" +
-            "2JR)2GZ\n" +
-            "72G)V8V\n" +
-            "R7M)Y3D\n" +
-            "GC9)3R7\n" +
-            "SM4)4WR\n" +
-            "456)3CJ\n" +
-            "8NV)92N\n" +
-            "S9Q)CGL\n" +
-            "CY5)7FY\n" +
-            "1RZ)BR8\n" +
-            "FYG)2M8\n" +
-            "JVP)GM2\n" +
-            "5C9)898\n" +
-            "MNQ)218\n" +
-            "RWL)6WZ\n" +
-            "1MC)PRV\n" +
-            "11L)BN1\n" +
-            "L5J)R52\n" +
-            "5V7)CZB\n" +
-            "Q2Y)G4K\n" +
-            "FSZ)DMR\n" +
-            "FVB)D7D\n" +
-            "TB1)51T\n" +
-            "LZX)PXG\n" +
-            "47S)859\n" +
-            "Q3M)3XW\n" +
-            "HKG)51H\n" +
-            "DMR)HLZ\n" +
-            "M61)TKZ\n" +
-            "8ND)ZM4\n" +
-            "S1Y)XP4\n" +
-            "8R8)DZX\n" +
-            "MZP)1ZR\n" +
-            "HNG)M1T\n" +
-            "4TS)KJX\n" +
-            "KLG)K75\n" +
-            "VLK)ZTM\n" +
-            "CQV)TSG\n" +
-            "KJX)SXN\n" +
-            "CH6)VN8\n" +
-            "LZB)1NY\n" +
-            "ZSD)B7L\n" +
-            "QGS)FNV\n" +
-            "JVP)NKB\n" +
-            "BYM)SP1\n" +
-            "ZFQ)9PJ\n" +
-            "HNG)5SF\n" +
-            "29G)QWY\n" +
-            "RYK)FXM\n" +
-            "S5V)B6T\n" +
-            "Z9H)89Q\n" +
-            "ZPK)LG7\n" +
-            "SF5)BKX\n" +
-            "43P)KRL\n" +
-            "2XX)Y2P\n" +
-            "CTK)J57\n" +
-            "YZG)MPF\n" +
-            "2QL)4Z1\n" +
-            "LKP)9R9\n" +
-            "VLV)GYD\n" +
-            "DZ8)S4V\n" +
-            "TBG)RQT\n" +
-            "B4T)YC2\n" +
-            "GTF)C1X\n" +
-            "SS9)W71\n" +
-            "R9L)QY7\n" +
-            "KB6)KG8\n" +
-            "MWM)MNQ\n" +
-            "T14)Q79\n" +
-            "YWS)8K6\n" +
-            "HSJ)LFQ\n" +
-            "JZM)BWQ\n" +
-            "C4J)WB1\n" +
-            "Q7Z)Z14\n" +
-            "8XV)4HW\n" +
-            "HN6)247\n" +
-            "FXR)72M\n" +
-            "9F5)6Y1\n" +
-            "WCJ)MJQ\n" +
-            "PRQ)YSZ\n" +
-            "4MC)HBW\n" +
-            "HV7)29G\n" +
-            "295)8QG\n" +
-            "FHP)T6D\n" +
-            "MCG)PB2\n" +
-            "4KV)L1V\n" +
-            "61H)F3H\n" +
-            "N3V)YWP\n" +
-            "8ND)VDN\n" +
-            "WYW)CY5\n" +
-            "2SM)RP9\n" +
-            "RZ8)WSL\n" +
-            "9SQ)HFW\n" +
-            "4PM)1T5\n" +
-            "1GB)M61\n" +
-            "FF7)5BB\n" +
-            "81G)RDT\n" +
-            "23Q)78W\n" +
-            "FDP)G6D\n" +
-            "JGS)P6J\n" +
-            "KQN)MY9\n" +
-            "MQZ)HVG\n" +
-            "Z33)KV8\n" +
-            "3Q9)QNV\n" +
-            "12V)WHV\n" +
-            "17J)GRY\n" +
-            "TTJ)JZM\n" +
-            "GP2)VQV\n" +
-            "5WQ)9YZ\n" +
-            "8NH)MSC\n" +
-            "248)FDP\n" +
-            "FSR)PCX\n" +
-            "C5D)DM5\n" +
-            "RDV)BKS\n" +
-            "M7W)2XX\n" +
-            "QDR)G2J\n" +
-            "W5T)927\n" +
-            "R4P)Q8T\n" +
-            "169)LPY\n" +
-            "7QS)LBT\n" +
-            "9SV)F7K\n" +
-            "N9G)3MW\n" +
-            "247)7C7\n" +
-            "Z4N)SKS\n" +
-            "9KN)733\n" +
-            "Z54)ZFQ\n" +
-            "5JF)C39\n" +
-            "V8D)7WB\n" +
-            "Y1Z)YRC\n" +
-            "4YF)W5T\n" +
-            "TPP)MQC\n" +
-            "VSP)PXS\n" +
-            "DBS)19K\n" +
-            "QR1)CSF\n" +
-            "QJ4)1RZ\n" +
-            "D5X)MK4\n" +
-            "B6H)VZK\n" +
-            "1FV)F1J\n" +
-            "HS1)LW7\n" +
-            "Z6M)Q5V\n" +
-            "J19)9DW\n" +
-            "PR6)V7W\n" +
-            "86D)VZZ\n" +
-            "N8W)LVL\n" +
-            "LTR)RVZ\n" +
-            "ZBD)4WN\n" +
-            "WN4)ZYV\n" +
-            "HBW)K58\n" +
-            "5QD)6T5\n" +
-            "8V8)PX5\n" +
-            "FQC)3QP\n" +
-            "C38)748\n" +
-            "MLF)59X\n" +
-            "KQP)XR4\n" +
-            "H72)BR7\n" +
-            "LW7)G38\n" +
-            "QM2)4BB\n" +
-            "NCH)C7X\n" +
-            "CTM)QR1\n" +
-            "TNT)XVV\n" +
-            "33N)PXN\n" +
-            "FDC)KTF\n" +
-            "FQ2)6W8\n" +
-            "K35)FCM\n" +
-            "16L)MBB\n" +
-            "MTM)6MN\n" +
-            "ZKW)44K\n" +
-            "PKS)RKS\n" +
-            "WG6)2XV\n" +
-            "V7W)HDC\n" +
-            "9RQ)S7L\n" +
-            "MPF)G84\n" +
-            "DNY)T6P\n" +
-            "3GX)2YJ\n" +
-            "378)VP5\n" +
-            "Y8Q)99Y\n" +
-            "29Q)BSR\n" +
-            "T6V)P52\n" +
-            "VZD)X8R\n" +
-            "HVS)GQJ\n" +
-            "8TW)LTR\n" +
-            "9SZ)LJB\n" +
-            "X8G)3PD\n" +
-            "NMJ)X5L\n" +
-            "B51)SWG\n" +
-            "PHF)YZG\n" +
-            "LJB)DNR\n" +
-            "YC2)MF8\n" +
-            "LVQ)LYF\n" +
-            "5LS)RPJ\n" +
-            "4TJ)NH3\n" +
-            "8D1)KVB\n" +
-            "S1L)7LM\n" +
-            "RSP)8B2\n" +
-            "JYF)DBS\n" +
-            "K5C)Y9H\n" +
-            "4HW)NGC\n" +
-            "4D2)G2S\n" +
-            "9WT)LG5\n" +
-            "ZD3)NCZ\n" +
-            "Y9C)C8F\n" +
-            "M3P)418\n" +
-            "8X5)KZ4\n" +
-            "YHM)29W\n" +
-            "59F)FXR\n" +
-            "XLP)R1R\n" +
-            "KJ2)2DF\n" +
-            "YF4)YQL\n" +
-            "Z14)M9L\n" +
-            "PNV)R7M\n" +
-            "ZBW)1KH\n" +
-            "8G8)5HF\n" +
-            "8X6)484\n" +
-            "G3Q)12V\n" +
-            "8GV)3Q2\n" +
-            "421)2N3\n" +
-            "W2N)K6V\n" +
-            "V1F)YZC\n" +
-            "188)SP4\n" +
-            "PWS)B3S\n" +
-            "5Q5)R9L\n" +
-            "T2C)5XL\n" +
-            "TYS)GC9\n" +
-            "2GZ)ZVH\n" +
-            "5YW)FCS\n" +
-            "T6D)TWK\n" +
-            "2BK)XMF\n" +
-            "TPP)W47\n" +
-            "HDC)VGK\n" +
-            "X8D)S87\n" +
-            "Z8Q)XBV\n" +
-            "7YK)NCS\n" +
-            "GQN)H8Q\n" +
-            "CSF)5C9\n" +
-            "BFM)TGW\n" +
-            "MLF)HHY\n" +
-            "P9G)RRB\n" +
-            "Q2S)VLB\n" +
-            "PTK)ZR5\n" +
-            "BZX)TB1\n" +
-            "2RZ)9Y2\n" +
-            "BR7)NG8\n" +
-            "QH5)13K\n" +
-            "6BD)M7X\n" +
-            "WYH)Z6M\n" +
-            "ZVH)F8P\n" +
-            "4JQ)51D\n" +
-            "XVB)D4C\n" +
-            "1YW)TD6\n" +
-            "RHH)JYF\n" +
-            "M79)8NH\n" +
-            "GP1)5ZC\n" +
-            "YQ1)QW6\n" +
-            "1YL)MTV\n" +
-            "HN6)D1C\n" +
-            "1DQ)BRR\n" +
-            "DDW)21W\n" +
-            "F2C)CK4\n" +
-            "19Q)T3B\n" +
-            "MT3)42N\n" +
-            "X4J)TNV\n" +
-            "Y65)MCG\n" +
-            "KKP)H2F\n" +
-            "ZP7)QPN\n" +
-            "CST)1GB\n" +
-            "QR1)8TW\n" +
-            "C9T)8NV\n" +
-            "SWG)H3X\n" +
-            "BKX)1ZP\n" +
-            "8GY)H8F\n" +
-            "PRV)N8R\n" +
-            "8V5)WWW\n" +
-            "LSW)SFM\n" +
-            "C6N)JCY\n" +
-            "1GW)PQS\n" +
-            "WCJ)74S\n" +
-            "KNF)4Z6\n" +
-            "2WN)T14\n" +
-            "PQS)5QD\n" +
-            "6XC)NVV\n" +
-            "DNR)ZYR\n" +
-            "MRC)T43\n" +
-            "3QB)MQZ\n" +
-            "X5L)MRC\n" +
-            "9ZS)ZKT\n" +
-            "TDB)2SZ\n" +
-            "M16)7L2\n" +
-            "TWK)TS8\n" +
-            "G72)72G\n" +
-            "NPC)8S6\n" +
-            "56W)7V3\n" +
-            "WBC)DBL\n" +
-            "6MN)3B9\n" +
-            "JRW)HRS\n" +
-            "JCY)RQG\n" +
-            "2XV)RH9\n" +
-            "3J2)61H\n" +
-            "Z8T)8FZ\n" +
-            "2QL)QK6\n" +
-            "7L2)9WN\n" +
-            "RPT)D9F\n" +
-            "RDT)8GY\n" +
-            "1ZP)69S\n" +
-            "BWW)7TQ\n" +
-            "C8F)FQC\n" +
-            "3X9)78H\n" +
-            "MLH)TWR\n" +
-            "7MJ)JGL\n" +
-            "NCG)LYR\n" +
-            "LG5)Y2J\n" +
-            "W4Z)4ZR\n" +
-            "5HF)SF5\n" +
-            "7BF)V8M\n" +
-            "WLZ)5Q5\n" +
-            "CFB)PH8\n" +
-            "425)189\n" +
-            "LYF)21B\n" +
-            "96W)5XP\n" +
-            "G38)9P7\n" +
-            "LFQ)GJ2\n" +
-            "YQ1)MHM\n" +
-            "ZJ3)57T\n" +
-            "T14)VFP\n" +
-            "V4X)8HT\n" +
-            "RVJ)C2W\n" +
-            "J3G)L4X\n" +
-            "161)5Q1\n" +
-            "GNY)4YD\n" +
-            "QWN)QFY\n" +
-            "HBR)3V3\n" +
-            "ZR5)QH5\n" +
-            "3V3)WT2\n" +
-            "JGB)G39\n" +
-            "8B7)QM2\n" +
-            "2CD)BP7\n" +
-            "6CT)WCX\n" +
-            "LB9)G72\n" +
-            "R2F)8XK\n" +
-            "K58)J83\n" +
-            "WB4)HV7\n" +
-            "BHG)17Z\n" +
-            "RN6)2FH\n" +
-            "67K)Z54\n" +
-            "KMC)B51\n" +
-            "51D)ZHC\n" +
-            "TD6)2CD\n" +
-            "189)3YC\n" +
-            "YR6)JGS\n" +
-            "8X5)H6R\n" +
-            "PH8)6JN\n" +
-            "PNS)VG5\n" +
-            "KX1)1YL\n" +
-            "TNV)93D\n" +
-            "GW6)378\n" +
-            "HDY)126\n" +
-            "5FX)HVX\n" +
-            "ZF7)TWJ\n" +
-            "P72)ZH4\n" +
-            "SMJ)1W5\n" +
-            "FXM)T2C\n" +
-            "ZZG)DYC\n" +
-            "N7H)2X2\n" +
-            "T1J)YDQ\n" +
-            "Y7L)S5X\n" +
-            "L1H)RCQ\n" +
-            "S6P)Y9C\n" +
-            "ZRM)3GX\n" +
-            "GY8)R1F\n" +
-            "YSL)SAN\n" +
-            "DD7)ZS7\n" +
-            "F1N)CHH\n" +
-            "4WN)94D\n" +
-            "XR4)816\n" +
-            "8QG)ZF7\n" +
-            "H2F)BLV\n" +
-            "KQL)7L9\n" +
-            "C7X)MTM\n" +
-            "R3M)4FC\n" +
-            "92N)ZP7\n" +
-            "JRW)VSP\n" +
-            "13K)DRD\n" +
-            "LPY)H6F\n" +
-            "R28)LLW\n" +
-            "GPX)5VY\n" +
-            "DMN)H1K\n" +
-            "8QP)VNK\n" +
-            "MKV)LBC\n" +
-            "N7S)5ZJ\n" +
-            "9PJ)2JN\n" +
-            "YDQ)HN6\n" +
-            "NKR)GPW\n" +
-            "25Q)7VR\n" +
-            "S5G)L21\n" +
-            "64D)9GD\n" +
-            "DBL)R7V\n" +
-            "TCD)BFQ\n" +
-            "QTX)G92";
+                                            224,
+                                            674,
+                                            101,
+                                            1,
+                                            223,
+                                            223,
+                                            4,
+                                            223,
+                                            99,
+                                            226};
+    public String[] orbitMap = {"6TJ)DQ7",
+                                "Q64)6PD",
+                                "9K5)F2C",
+                                "NRH)456",
+                                "Y7M)3FZ",
+                                "SFM)RHP",
+                                "PX5)FTR",
+                                "RC8)8DP",
+                                "3KT)XLP",
+                                "4GC)ZBW",
+                                "51K)DJQ",
+                                "24V)4F3",
+                                "4CR)C5D",
+                                "RXZ)J74",
+                                "9YN)M5V",
+                                "4WK)S9L",
+                                "ZHC)XQJ",
+                                "7L9)Y1Z",
+                                "HRS)VZB",
+                                "C41)9SZ",
+                                "V8V)DXG",
+                                "1J4)GGW",
+                                "BZF)D86",
+                                "B16)WW2",
+                                "RK4)HZT",
+                                "HRF)Q3M",
+                                "GQJ)K6C",
+                                "WC1)918",
+                                "S4T)YHG",
+                                "L6V)THN",
+                                "VFP)FG3",
+                                "G4K)M4S",
+                                "BRH)7QS",
+                                "J7D)ZWP",
+                                "BKS)86D",
+                                "FNK)8Y9",
+                                "L7N)LSW",
+                                "XGD)SSD",
+                                "V79)7F3",
+                                "7J4)FSR",
+                                "BN1)V6L",
+                                "8VP)82W",
+                                "9YZ)1JB",
+                                "7LM)M16",
+                                "M1X)P72",
+                                "ZYV)9WT",
+                                "N6F)RX5",
+                                "FNK)SQR",
+                                "MSK)FYY",
+                                "ZQQ)1KS",
+                                "K15)BFM",
+                                "QHP)ZRP",
+                                "C2W)2SM",
+                                "CGC)631",
+                                "CZB)5PS",
+                                "7FY)4TS",
+                                "T24)F53",
+                                "LPY)L7N",
+                                "TG1)QVP",
+                                "M5V)248",
+                                "B3G)N85",
+                                "YZG)JWC",
+                                "R4H)XGS",
+                                "ZHN)C2V",
+                                "3TN)WPF",
+                                "218)ZQ3",
+                                "HL6)KQL",
+                                "917)S6P",
+                                "Y3N)FLV",
+                                "Y9H)J3G",
+                                "RVZ)GPX",
+                                "KBG)ZK1",
+                                "VP5)ZNS",
+                                "R27)43Z",
+                                "JLM)XGW",
+                                "R5M)MYB",
+                                "D1R)38M",
+                                "CGL)C9R",
+                                "ZYR)SWB",
+                                "R65)WYB",
+                                "DZX)N3S",
+                                "ZLF)P7B",
+                                "3JG)GPL",
+                                "WMY)6HY",
+                                "KTF)619",
+                                "RKS)JK4",
+                                "CJB)F1N",
+                                "J69)CJB",
+                                "GFC)CVX",
+                                "4C8)T1F",
+                                "SSD)389",
+                                "LYR)WR7",
+                                "99Y)188",
+                                "3YC)Q7Z",
+                                "4BB)ZHK",
+                                "8LY)JYN",
+                                "WMB)X2L",
+                                "B7L)KSZ",
+                                "G2J)3JG",
+                                "C1X)SHP",
+                                "3Q4)7JH",
+                                "CQS)HDY",
+                                "1XL)JTM",
+                                "BGY)19Q",
+                                "N85)2D3",
+                                "SQR)8V5",
+                                "3PD)HVF",
+                                "Q13)N43",
+                                "3FV)MLH",
+                                "662)GL8",
+                                "1ZR)3DL",
+                                "RZB)P1V",
+                                "CJB)MBZ",
+                                "HLZ)9FT",
+                                "77R)DWB",
+                                "5N2)4CR",
+                                "PMX)WMY",
+                                "8TD)11L",
+                                "2JN)H1W",
+                                "VN8)KVV",
+                                "4W2)FQ2",
+                                "6Y1)Y7G",
+                                "VGK)CXF",
+                                "VM9)1VZ",
+                                "MHR)67K",
+                                "RH9)88M",
+                                "X3G)L9Y",
+                                "BBX)PHF",
+                                "VCS)26F",
+                                "51T)K1Q",
+                                "ZJL)YPP",
+                                "Q8Z)Q64",
+                                "9RP)H64",
+                                "8RX)VZD",
+                                "59F)16L",
+                                "6T5)8QP",
+                                "CJG)2DD",
+                                "748)JN5",
+                                "NGC)N3V",
+                                "BVN)Y7L",
+                                "S26)Y3N",
+                                "R7M)WCJ",
+                                "CQS)WJ5",
+                                "57T)RVJ",
+                                "BP7)WC2",
+                                "BW7)LB9",
+                                "ZH9)VW7",
+                                "X8R)K7M",
+                                "RJW)5WQ",
+                                "KQV)HB2",
+                                "HJ7)9RP",
+                                "KYM)ZNY",
+                                "5PS)TCD",
+                                "PB7)RSP",
+                                "BR8)DC8",
+                                "JM4)W61",
+                                "H7W)BJB",
+                                "NRW)56F",
+                                "1NV)169",
+                                "38M)JLM",
+                                "J7D)8VB",
+                                "4H9)1GZ",
+                                "BC1)Y9S",
+                                "C9R)6L3",
+                                "L4X)Y8Q",
+                                "MP6)WLZ",
+                                "HZT)Y3X",
+                                "PXN)637",
+                                "GCS)ZT1",
+                                "G84)BW7",
+                                "9T5)4L2",
+                                "MJQ)R28",
+                                "3R7)9CC",
+                                "HVX)6V4",
+                                "9Y2)GW6",
+                                "S3F)TPP",
+                                "C39)LTB",
+                                "MYB)SHN",
+                                "5ZC)WBC",
+                                "ZWP)SJQ",
+                                "8QD)MKV",
+                                "TKZ)KKR",
+                                "7J4)B8T",
+                                "R52)295",
+                                "BRR)PV3",
+                                "THN)3DM",
+                                "S42)R1D",
+                                "FD8)QJ4",
+                                "WB1)RYK",
+                                "6JL)2JR",
+                                "631)RWV",
+                                "C5T)NLD",
+                                "CC4)KNF",
+                                "SJL)4C8",
+                                "QNV)T5P",
+                                "D5D)D6P",
+                                "Y97)Q2G",
+                                "7C7)Z8T",
+                                "5BS)B9C",
+                                "BWQ)WM6",
+                                "T5P)SPN",
+                                "3DL)YV4",
+                                "Q34)GCS",
+                                "W71)GP1",
+                                "GDZ)CH6",
+                                "WT6)S3F",
+                                "16L)THM",
+                                "CPY)XDC",
+                                "P48)BP5",
+                                "V9C)PM1",
+                                "FFP)QWN",
+                                "V9C)8RX",
+                                "9T9)HDD",
+                                "WYW)48L",
+                                "VJP)S26",
+                                "3B9)N7H",
+                                "88M)RJ3",
+                                "8YV)NHS",
+                                "QDV)47S",
+                                "3WJ)YOU",
+                                "M2Z)33N",
+                                "6L3)2RZ",
+                                "JGL)L92",
+                                "NP3)L6G",
+                                "BDW)M4Z",
+                                "C1X)8VP",
+                                "484)7PL",
+                                "VX3)GGQ",
+                                "RK8)ZRZ",
+                                "F4N)MRT",
+                                "NJK)XH1",
+                                "VDN)X4J",
+                                "SHN)YQ1",
+                                "KZ4)5LS",
+                                "C75)K15",
+                                "S5J)265",
+                                "DJQ)8LR",
+                                "MSP)BTB",
+                                "2M8)7BN",
+                                "H9J)J3Z",
+                                "BSR)421",
+                                "1J4)HBR",
+                                "CLK)V8D",
+                                "VZB)DYF",
+                                "4WN)GB7",
+                                "MGD)BML",
+                                "5VY)3DJ",
+                                "H8F)B3G",
+                                "M9L)YSL",
+                                "K3N)DCV",
+                                "BLV)95B",
+                                "QMY)RHH",
+                                "9TF)J5F",
+                                "29Q)6JL",
+                                "QDV)PNS",
+                                "Y2P)SST",
+                                "NK9)H5Q",
+                                "1JB)V79",
+                                "ZY7)1LF",
+                                "F53)K5Z",
+                                "BP5)R4H",
+                                "SMJ)TZV",
+                                "LCW)8GV",
+                                "L5H)3LJ",
+                                "J1X)JS5",
+                                "S9L)FD8",
+                                "28Z)5G3",
+                                "29D)QFT",
+                                "M7X)DZ1",
+                                "G4L)WN6",
+                                "2M1)DDW",
+                                "77R)PR6",
+                                "SWM)TQP",
+                                "DC8)VM9",
+                                "CYX)SJL",
+                                "ZRZ)HSJ",
+                                "XP4)BRH",
+                                "8HG)HT6",
+                                "D3Y)59Z",
+                                "KVV)3SL",
+                                "WNQ)LBL",
+                                "CJ1)5BS",
+                                "19Q)C5C",
+                                "NWH)XCC",
+                                "PXS)KKB",
+                                "F8P)BLG",
+                                "WR7)8ND",
+                                "K6C)BDW",
+                                "YHG)R2F",
+                                "2JR)R4P",
+                                "619)Z1X",
+                                "93D)BZF",
+                                "51H)Z9H",
+                                "9WB)9SV",
+                                "SFM)H7W",
+                                "K7P)Y65",
+                                "B8T)CTK",
+                                "2DD)9VC",
+                                "ZM4)TQZ",
+                                "733)17J",
+                                "FCM)8V4",
+                                "CHH)4W3",
+                                "G2S)XLB",
+                                "BQC)1XL",
+                                "WFM)NH4",
+                                "927)CFB",
+                                "J74)3W8",
+                                "SDC)9WB",
+                                "Q79)RWL",
+                                "46L)P8L",
+                                "T1F)4G3",
+                                "1N3)VX3",
+                                "4KG)111",
+                                "Z4L)BC1",
+                                "QH5)GP2",
+                                "3R7)VLV",
+                                "F3H)PKS",
+                                "Z8D)VLR",
+                                "YZC)78K",
+                                "3XL)VCB",
+                                "L9L)Z8D",
+                                "44K)WNQ",
+                                "6Z1)3WJ",
+                                "78S)FVB",
+                                "D1C)HNG",
+                                "GJG)MWM",
+                                "W7J)RX6",
+                                "7PL)QCB",
+                                "KRQ)XP1",
+                                "BWQ)3ST",
+                                "XMF)1DS",
+                                "R7V)Z4L",
+                                "FCS)MZP",
+                                "5SF)W2W",
+                                "HCK)H72",
+                                "ZY2)N6F",
+                                "7FY)BNM",
+                                "1ZP)NJK",
+                                "Y87)Q4S",
+                                "898)YD1",
+                                "8K6)P9Q",
+                                "ZG3)13D",
+                                "XLB)MP6",
+                                "QPD)3TP",
+                                "R1R)KQN",
+                                "VFF)TQK",
+                                "SGZ)832",
+                                "Z3F)QPD",
+                                "LTB)8QD",
+                                "N3S)FFP",
+                                "S5X)2WN",
+                                "HDD)RC8",
+                                "6JN)Q9M",
+                                "9TV)PJ8",
+                                "1W5)SGZ",
+                                "55F)RLD",
+                                "J83)6YG",
+                                "TK4)RZ8",
+                                "TSD)CPY",
+                                "78W)C3L",
+                                "8VP)CST",
+                                "13D)NCH",
+                                "MP5)HT2",
+                                "5PZ)ZDB",
+                                "WYS)J2F",
+                                "L7Q)V4X",
+                                "6V4)59F",
+                                "RS2)SW6",
+                                "3DJ)L7Q",
+                                "3LJ)NWH",
+                                "4F3)6Z1",
+                                "SJZ)QHP",
+                                "94Q)5V7",
+                                "4W3)L5J",
+                                "52V)64D",
+                                "V7G)C27",
+                                "FTR)NPC",
+                                "MPT)K8K",
+                                "CVX)X3G",
+                                "9WN)5FX",
+                                "NLD)TG1",
+                                "Q2F)V3G",
+                                "WW2)YRT",
+                                "LBC)QSZ",
+                                "SZP)4KV",
+                                "ZNY)K3N",
+                                "YWP)T24",
+                                "LYF)JV8",
+                                "FGP)4TJ",
+                                "H6G)7Y8",
+                                "5JV)8D1",
+                                "KKB)6TJ",
+                                "2SZ)5DY",
+                                "QWY)ZY2",
+                                "MBN)RZF",
+                                "N79)N7S",
+                                "B29)3J2",
+                                "Y7G)N5K",
+                                "6W8)C38",
+                                "DVY)TJP",
+                                "78K)RJW",
+                                "HT6)HKG",
+                                "VHL)NK9",
+                                "GGW)X8G",
+                                "RMP)B4T",
+                                "DRD)B16",
+                                "KSZ)RPM",
+                                "R1D)YWS",
+                                "RHH)WG6",
+                                "BML)W11",
+                                "DWB)4YF",
+                                "WJ5)4KG",
+                                "F9J)RPT",
+                                "J1X)B29",
+                                "JK4)HS1",
+                                "RK4)52V",
+                                "TZ1)CC4",
+                                "21W)4PM",
+                                "RX5)KMC",
+                                "M1X)N7V",
+                                "SP4)Z3W",
+                                "LYH)8HG",
+                                "95S)Y3Q",
+                                "SW6)5PZ",
+                                "2N3)46L",
+                                "PCX)5YW",
+                                "VLB)HF2",
+                                "RJJ)GJG",
+                                "Q95)3W1",
+                                "SP1)86H",
+                                "4ZR)8X5",
+                                "Y8Q)GNY",
+                                "YRC)9K5",
+                                "GL8)QDR",
+                                "TSZ)13Q",
+                                "D4C)F8X",
+                                "436)D3Y",
+                                "Z3F)2BX",
+                                "VKM)PWT",
+                                "MM5)M8G",
+                                "KVB)MT3",
+                                "WWW)N79",
+                                "S8F)1N3",
+                                "8DP)M79",
+                                "GQP)2QL",
+                                "7VR)8G8",
+                                "PD7)R3M",
+                                "94D)564",
+                                "5XP)WL1",
+                                "8LY)P9J",
+                                "D3D)94L",
+                                "56F)2BK",
+                                "NCS)BQC",
+                                "4GZ)S5J",
+                                "GM2)NRH",
+                                "XGW)1MC",
+                                "ZDB)K35",
+                                "ZRP)CDL",
+                                "SYH)J7T",
+                                "Q4S)KBG",
+                                "K7M)G3Q",
+                                "9PG)N91",
+                                "J7T)LRH",
+                                "2ND)Z3F",
+                                "9T9)CJ1",
+                                "ZR5)FDC",
+                                "26F)L5H",
+                                "4FK)Z4N",
+                                "3PP)BHG",
+                                "BN1)QVM",
+                                "JN5)FF7",
+                                "ZH4)SWM",
+                                "Z3W)XVK",
+                                "VPD)G3Z",
+                                "K15)VKM",
+                                "7H3)9LV",
+                                "HCK)KRQ",
+                                "TZV)ZY7",
+                                "LDW)CLK",
+                                "3DM)C4J",
+                                "MRT)29D",
+                                "5Y3)XYV",
+                                "5RK)6N6",
+                                "L21)JDN",
+                                "T43)24V",
+                                "BNM)4VT",
+                                "DMJ)2VZ",
+                                "CJ1)4H9",
+                                "9C5)V9C",
+                                "3JF)1X4",
+                                "8V4)ZKW",
+                                "42N)62V",
+                                "WSL)TTL",
+                                "KG6)SM4",
+                                "9VC)662",
+                                "1VZ)Y97",
+                                "1BD)B4B",
+                                "P9Q)R65",
+                                "918)9M1",
+                                "XP1)4W2",
+                                "XPY)46Y",
+                                "3XW)YR6",
+                                "HZY)Q5G",
+                                "DQ7)VHL",
+                                "J2F)ZZG",
+                                "Q5G)28Z",
+                                "Z1X)HZY",
+                                "7V3)FBS",
+                                "48L)LZB",
+                                "HVG)TSD",
+                                "HHY)KQV",
+                                "MBB)CTM",
+                                "HB2)LD7",
+                                "9DW)Q95",
+                                "446)3Q4",
+                                "LBT)GFS",
+                                "5RB)C5T",
+                                "Z68)PNV",
+                                "NJ7)TMH",
+                                "VBT)M7W",
+                                "QVP)Q2S",
+                                "YSZ)R5M",
+                                "7QS)LZW",
+                                "Q3K)B6R",
+                                "C39)HRF",
+                                "74S)1FV",
+                                "BMZ)RSC",
+                                "4WR)M3P",
+                                "ZFQ)7RW",
+                                "XPY)JKH",
+                                "D6P)FDL",
+                                "RHP)JRW",
+                                "6YP)LNN",
+                                "Y3Q)C9K",
+                                "9FT)SZP",
+                                "D6V)PD7",
+                                "QY7)51K",
+                                "ZS7)2BH",
+                                "J5F)ZG3",
+                                "S7L)WN4",
+                                "F8X)9S3",
+                                "VG5)S1L",
+                                "YV4)ZHN",
+                                "G3Z)Q8Z",
+                                "V8D)C9T",
+                                "389)VF8",
+                                "J2F)9ZS",
+                                "H8F)R31",
+                                "43Z)2S4",
+                                "GFS)74R",
+                                "LT1)CQV",
+                                "TJP)TBG",
+                                "XBV)DZT",
+                                "KV8)T6V",
+                                "5YN)MGD",
+                                "7RF)P2D",
+                                "46Y)J7D",
+                                "B41)FSZ",
+                                "B6T)34W",
+                                "XGX)Z6W",
+                                "564)M39",
+                                "94L)HJ7",
+                                "8DG)K51",
+                                "XH5)3GT",
+                                "DZM)JSS",
+                                "X2L)LZX",
+                                "RQT)VCS",
+                                "JSS)XVB",
+                                "93M)Y87",
+                                "9SQ)D5D",
+                                "6YG)6X2",
+                                "J3M)Y7M",
+                                "K75)9KN",
+                                "NH4)9FH",
+                                "8NV)2X6",
+                                "Y9S)Z48",
+                                "8BV)2M1",
+                                "2YJ)2ND",
+                                "M4S)WCZ",
+                                "HJG)NYK",
+                                "WM6)KQP",
+                                "N7L)FGP",
+                                "9NC)LKP",
+                                "BSV)FHP",
+                                "G39)5Y3",
+                                "P52)FNK",
+                                "LG7)ZSD",
+                                "9M1)ZCL",
+                                "1BM)C6N",
+                                "V3G)9T5",
+                                "18V)YHM",
+                                "COM)Q3K",
+                                "PB2)Q13",
+                                "LZW)7HR",
+                                "8LR)D5X",
+                                "W4Z)BBX",
+                                "HVF)25Q",
+                                "2M1)1DQ",
+                                "ZHK)3PP",
+                                "WC2)KCX",
+                                "VQV)5GS",
+                                "QVM)WYW",
+                                "C9K)W2N",
+                                "ZGC)CJG",
+                                "TWJ)7LL",
+                                "DZ1)SDC",
+                                "9FS)8XV",
+                                "9FH)MP5",
+                                "J3Z)MHR",
+                                "NG8)4FK",
+                                "CNQ)1RR",
+                                "4L2)QMY",
+                                "QSZ)NCV",
+                                "H8Q)PWS",
+                                "1V8)GMS",
+                                "QPN)XGD",
+                                "RPJ)T1J",
+                                "48L)PTK",
+                                "4YD)KYM",
+                                "B16)C41",
+                                "CDF)GSC",
+                                "77N)622",
+                                "QCB)SYH",
+                                "RDK)Q34",
+                                "7Y8)S5V",
+                                "N1D)L6V",
+                                "M1T)P48",
+                                "GRY)1GW",
+                                "D7D)D3D",
+                                "QQK)DL3",
+                                "6PD)8R8",
+                                "GP2)S5G",
+                                "HFW)4MC",
+                                "111)9TV",
+                                "LQQ)HJG",
+                                "TQK)Z68",
+                                "BJB)DT6",
+                                "1GZ)Z7F",
+                                "XDC)N1D",
+                                "5VR)B41",
+                                "418)B4J",
+                                "D9F)XY6",
+                                "P1V)WYS",
+                                "9CC)NQK",
+                                "KRL)656",
+                                "XY6)917",
+                                "34W)CQS",
+                                "JDN)SS9",
+                                "KG8)8DG",
+                                "CXF)L95",
+                                "Y2J)MPT",
+                                "H5Q)3WS",
+                                "LVL)J3M",
+                                "LGF)YHN",
+                                "FDL)N7L",
+                                "WT2)9NC",
+                                "HF2)VYL",
+                                "622)Z5F",
+                                "5S5)QGS",
+                                "QSH)H6G",
+                                "FG3)ZD3",
+                                "816)1B9",
+                                "K51)7RF",
+                                "N91)95S",
+                                "3CJ)P9G",
+                                "NXS)PMX",
+                                "D1C)GY8",
+                                "13D)QDV",
+                                "GYD)Q2F",
+                                "MK4)HL6",
+                                "VCB)DF3",
+                                "8S6)LT1",
+                                "Z6W)ZRM",
+                                "B4J)4WK",
+                                "5JF)GDZ",
+                                "H3X)4GC",
+                                "MQC)R27",
+                                "8GY)7TT",
+                                "Z5F)KST",
+                                "HPH)JGB",
+                                "PV3)9YN",
+                                "YRC)BZX",
+                                "JWC)3JF",
+                                "62V)Q8V",
+                                "V9V)53P",
+                                "P2D)XH5",
+                                "3QP)DMJ",
+                                "HBR)XGX",
+                                "LJR)JNS",
+                                "7WB)5JF",
+                                "P7B)55F",
+                                "L6G)WFM",
+                                "QW6)F4N",
+                                "HQJ)LGS",
+                                "8VB)WC1",
+                                "637)94Q",
+                                "4Z1)96W",
+                                "3Q2)LGF",
+                                "N5K)J69",
+                                "RC3)X63",
+                                "9GD)LQ5",
+                                "NKB)NRW",
+                                "4V1)DNY",
+                                "CK4)5RB",
+                                "P1V)35T",
+                                "M39)LDW",
+                                "DT6)K5C",
+                                "LGF)SMJ",
+                                "67J)WH8",
+                                "839)8X6",
+                                "Q3K)L7Y",
+                                "N8R)DZ8",
+                                "NLD)BG7",
+                                "4K6)6CT",
+                                "3JN)BR6",
+                                "8ZY)9RQ",
+                                "1KS)F9J",
+                                "ZL4)LJR",
+                                "4FC)7J4",
+                                "RPM)M33",
+                                "XYV)V35",
+                                "F7K)9T9",
+                                "N1S)WB4",
+                                "C5C)8BV",
+                                "RSC)CNQ",
+                                "7TQ)QQK",
+                                "K58)5VR",
+                                "H6R)23Q",
+                                "LGS)9F5",
+                                "G1S)N1S",
+                                "9LV)KB6",
+                                "Y3D)5YN",
+                                "PX5)5S5",
+                                "XCC)H9J",
+                                "YHN)YQS",
+                                "CDL)W4Z",
+                                "3Q9)VFF",
+                                "J7T)112",
+                                "WH8)Z33",
+                                "Q8T)RK8",
+                                "GRY)X8D",
+                                "VW7)1B6",
+                                "WL1)MM5",
+                                "M33)NXS",
+                                "2S4)BYM",
+                                "X63)JPZ",
+                                "28D)V1F",
+                                "TTJ)161",
+                                "2DF)RMP",
+                                "D6Y)CDF",
+                                "JYN)TYS",
+                                "QFT)9SQ",
+                                "GPL)KX1",
+                                "35T)6YP",
+                                "9DY)D6V",
+                                "13Q)TK4",
+                                "K6V)7YK",
+                                "21B)L9L",
+                                "MF8)NM2",
+                                "VZK)6XC",
+                                "TTL)425",
+                                "6X2)RDK",
+                                "95S)WMB",
+                                "4Z6)D1R",
+                                "JNS)K7P",
+                                "JS5)1V8",
+                                "VLR)43P",
+                                "6N2)77N",
+                                "BFQ)Q1Q",
+                                "TBG)NJ7",
+                                "2D3)3JN",
+                                "JPZ)CL5",
+                                "5DY)5RK",
+                                "3PD)T52",
+                                "TMH)8B7",
+                                "LLW)NKR",
+                                "XB1)HCK",
+                                "7F3)S9Q",
+                                "Z68)RJJ",
+                                "4VT)3KT",
+                                "L7Y)KG6",
+                                "29W)25N",
+                                "PKS)N9G",
+                                "3MW)V7G",
+                                "112)4D2",
+                                "DYC)CGC",
+                                "3FZ)S42",
+                                "Y9H)DD7",
+                                "NBB)Q2Y",
+                                "Z39)MJT",
+                                "9S3)3FK",
+                                "LRH)V9V",
+                                "RQG)MLF",
+                                "4FC)29Q",
+                                "TQP)M6S",
+                                "1B6)8TD",
+                                "4WK)S4T",
+                                "T3B)CHP",
+                                "B6R)77R",
+                                "G6D)ZL4",
+                                "416)PRQ",
+                                "RP9)RS2",
+                                "Q1T)18V",
+                                "N7V)LYH",
+                                "265)1YW",
+                                "C2V)KKP",
+                                "RZF)QSH",
+                                "SGM)ZJL",
+                                "6HY)8YV",
+                                "YQS)S8F",
+                                "GSC)1J4",
+                                "53P)TZ1",
+                                "T52)DMN",
+                                "L9Y)B6H",
+                                "XH1)436",
+                                "6WZ)GQN",
+                                "MXK)D2T",
+                                "SS9)HPH",
+                                "S4V)QRJ",
+                                "ZRM)5JV",
+                                "59X)9PG",
+                                "2X6)M1X",
+                                "MTV)PW6",
+                                "R1F)DZM",
+                                "2FH)28D",
+                                "H1K)6N2",
+                                "3GT)3Q9",
+                                "KST)Q1T",
+                                "M6S)3TN",
+                                "SJQ)CYX",
+                                "MP5)B5J",
+                                "SHP)67J",
+                                "ZCL)J2S",
+                                "1RR)YK9",
+                                "V8M)MBN",
+                                "MRT)Z8Q",
+                                "K5Z)839",
+                                "BTB)FP1",
+                                "XVV)KLG",
+                                "8XK)SYB",
+                                "W71)Z39",
+                                "GB7)93C",
+                                "LQ5)RXZ",
+                                "THM)ZQQ",
+                                "NVV)ZGC",
+                                "TSG)5GG",
+                                "YPP)BSV",
+                                "S87)ZBD",
+                                "NCZ)7MJ",
+                                "TQZ)3XL",
+                                "3ST)GTF",
+                                "L95)8ZY",
+                                "H1W)8V8",
+                                "NYK)7BF",
+                                "B9C)1NV",
+                                "1GZ)9C5",
+                                "K1Q)4V1",
+                                "Q2G)RZB",
+                                "G1S)93M",
+                                "RRB)G4L",
+                                "TWR)VJP",
+                                "SXN)HFQ",
+                                "Q5V)RN6",
+                                "NCV)PB7",
+                                "Q1Q)9DY",
+                                "ZM4)C75",
+                                "7RW)6BD",
+                                "RCQ)FWP",
+                                "DF3)RDV",
+                                "QHP)ZPK",
+                                "C78)8LY",
+                                "92N)N8W",
+                                "QK6)YF4",
+                                "PTK)J1X",
+                                "LD7)NCG",
+                                "1QM)XLX",
+                                "W2W)FYG",
+                                "25N)J19",
+                                "SKS)1BM",
+                                "J57)C78",
+                                "T6P)RC3",
+                                "PW6)9FS",
+                                "TWR)B2J",
+                                "S3F)GQP",
+                                "7JH)L1H",
+                                "48H)VBT",
+                                "WCX)DVY",
+                                "5XL)WYH",
+                                "H6F)MSK",
+                                "FLV)3X9",
+                                "JGB)4GZ",
+                                "LNN)VLK",
+                                "1T5)QTX",
+                                "SST)RK4",
+                                "DNY)TSZ",
+                                "M4Z)48H",
+                                "3FK)LQQ",
+                                "B4B)7H3",
+                                "QFY)JM4",
+                                "SYB)MXK",
+                                "74R)WT6",
+                                "C3L)P44",
+                                "95B)78S",
+                                "2VZ)SJZ",
+                                "1NY)5N2",
+                                "5GS)TTJ",
+                                "PWT)4K6",
+                                "JKH)BVN",
+                                "93C)LVQ",
+                                "SPN)GFC",
+                                "72M)NBB",
+                                "Y3X)3QB",
+                                "8NH)416",
+                                "ZNS)XPY",
+                                "3QJ)ZJ3",
+                                "859)NP3",
+                                "XVK)3FV",
+                                "8FZ)BWW",
+                                "FYY)MSP",
+                                "B5J)81G",
+                                "TGW)SGM",
+                                "61H)TDB",
+                                "Z7F)BMZ",
+                                "5FX)JVP",
+                                "1LF)S1Y",
+                                "WYB)HVS",
+                                "3W1)VPD",
+                                "NQK)446",
+                                "5PS)HQJ",
+                                "H64)D6Y",
+                                "RX6)M2Z",
+                                "W61)NMJ",
+                                "CHH)BGY",
+                                "7TT)LCW",
+                                "LBL)G1S",
+                                "PJ8)XD8",
+                                "D1R)XXJ",
+                                "CV6)KJ2",
+                                "3TP)ZH9",
+                                "KJ2)847",
+                                "126)XB1",
+                                "1KH)TNT",
+                                "TS8)CV6",
+                                "FBS)9TF",
+                                "NHS)3QJ",
+                                "FP1)1BD",
+                                "SWB)87F",
+                                "ZKT)QX7",
+                                "1ZR)1QM",
+                                "QX7)56W",
+                                "59Z)ZLF",
+                                "XLX)4JQ",
+                                "B3S)W7J",
+                                "2JR)2GZ",
+                                "72G)V8V",
+                                "R7M)Y3D",
+                                "GC9)3R7",
+                                "SM4)4WR",
+                                "456)3CJ",
+                                "8NV)92N",
+                                "S9Q)CGL",
+                                "CY5)7FY",
+                                "1RZ)BR8",
+                                "FYG)2M8",
+                                "JVP)GM2",
+                                "5C9)898",
+                                "MNQ)218",
+                                "RWL)6WZ",
+                                "1MC)PRV",
+                                "11L)BN1",
+                                "L5J)R52",
+                                "5V7)CZB",
+                                "Q2Y)G4K",
+                                "FSZ)DMR",
+                                "FVB)D7D",
+                                "TB1)51T",
+                                "LZX)PXG",
+                                "47S)859",
+                                "Q3M)3XW",
+                                "HKG)51H",
+                                "DMR)HLZ",
+                                "M61)TKZ",
+                                "8ND)ZM4",
+                                "S1Y)XP4",
+                                "8R8)DZX",
+                                "MZP)1ZR",
+                                "HNG)M1T",
+                                "4TS)KJX",
+                                "KLG)K75",
+                                "VLK)ZTM",
+                                "CQV)TSG",
+                                "KJX)SXN",
+                                "CH6)VN8",
+                                "LZB)1NY",
+                                "ZSD)B7L",
+                                "QGS)FNV",
+                                "JVP)NKB",
+                                "BYM)SP1",
+                                "ZFQ)9PJ",
+                                "HNG)5SF",
+                                "29G)QWY",
+                                "RYK)FXM",
+                                "S5V)B6T",
+                                "Z9H)89Q",
+                                "ZPK)LG7",
+                                "SF5)BKX",
+                                "43P)KRL",
+                                "2XX)Y2P",
+                                "CTK)J57",
+                                "YZG)MPF",
+                                "2QL)4Z1",
+                                "LKP)9R9",
+                                "VLV)GYD",
+                                "DZ8)S4V",
+                                "TBG)RQT",
+                                "B4T)YC2",
+                                "GTF)C1X",
+                                "SS9)W71",
+                                "R9L)QY7",
+                                "KB6)KG8",
+                                "MWM)MNQ",
+                                "T14)Q79",
+                                "YWS)8K6",
+                                "HSJ)LFQ",
+                                "JZM)BWQ",
+                                "C4J)WB1",
+                                "Q7Z)Z14",
+                                "8XV)4HW",
+                                "HN6)247",
+                                "FXR)72M",
+                                "9F5)6Y1",
+                                "WCJ)MJQ",
+                                "PRQ)YSZ",
+                                "4MC)HBW",
+                                "HV7)29G",
+                                "295)8QG",
+                                "FHP)T6D",
+                                "MCG)PB2",
+                                "4KV)L1V",
+                                "61H)F3H",
+                                "N3V)YWP",
+                                "8ND)VDN",
+                                "WYW)CY5",
+                                "2SM)RP9",
+                                "RZ8)WSL",
+                                "9SQ)HFW",
+                                "4PM)1T5",
+                                "1GB)M61",
+                                "FF7)5BB",
+                                "81G)RDT",
+                                "23Q)78W",
+                                "FDP)G6D",
+                                "JGS)P6J",
+                                "KQN)MY9",
+                                "MQZ)HVG",
+                                "Z33)KV8",
+                                "3Q9)QNV",
+                                "12V)WHV",
+                                "17J)GRY",
+                                "TTJ)JZM",
+                                "GP2)VQV",
+                                "5WQ)9YZ",
+                                "8NH)MSC",
+                                "248)FDP",
+                                "FSR)PCX",
+                                "C5D)DM5",
+                                "RDV)BKS",
+                                "M7W)2XX",
+                                "QDR)G2J",
+                                "W5T)927",
+                                "R4P)Q8T",
+                                "169)LPY",
+                                "7QS)LBT",
+                                "9SV)F7K",
+                                "N9G)3MW",
+                                "247)7C7",
+                                "Z4N)SKS",
+                                "9KN)733",
+                                "Z54)ZFQ",
+                                "5JF)C39",
+                                "V8D)7WB",
+                                "Y1Z)YRC",
+                                "4YF)W5T",
+                                "TPP)MQC",
+                                "VSP)PXS",
+                                "DBS)19K",
+                                "QR1)CSF",
+                                "QJ4)1RZ",
+                                "D5X)MK4",
+                                "B6H)VZK",
+                                "1FV)F1J",
+                                "HS1)LW7",
+                                "Z6M)Q5V",
+                                "J19)9DW",
+                                "PR6)V7W",
+                                "86D)VZZ",
+                                "N8W)LVL",
+                                "LTR)RVZ",
+                                "ZBD)4WN",
+                                "WN4)ZYV",
+                                "HBW)K58",
+                                "5QD)6T5",
+                                "8V8)PX5",
+                                "FQC)3QP",
+                                "C38)748",
+                                "MLF)59X",
+                                "KQP)XR4",
+                                "H72)BR7",
+                                "LW7)G38",
+                                "QM2)4BB",
+                                "NCH)C7X",
+                                "CTM)QR1",
+                                "TNT)XVV",
+                                "33N)PXN",
+                                "FDC)KTF",
+                                "FQ2)6W8",
+                                "K35)FCM",
+                                "16L)MBB",
+                                "MTM)6MN",
+                                "ZKW)44K",
+                                "PKS)RKS",
+                                "WG6)2XV",
+                                "V7W)HDC",
+                                "9RQ)S7L",
+                                "MPF)G84",
+                                "DNY)T6P",
+                                "3GX)2YJ",
+                                "378)VP5",
+                                "Y8Q)99Y",
+                                "29Q)BSR",
+                                "T6V)P52",
+                                "VZD)X8R",
+                                "HVS)GQJ",
+                                "8TW)LTR",
+                                "9SZ)LJB",
+                                "X8G)3PD",
+                                "NMJ)X5L",
+                                "B51)SWG",
+                                "PHF)YZG",
+                                "LJB)DNR",
+                                "YC2)MF8",
+                                "LVQ)LYF",
+                                "5LS)RPJ",
+                                "4TJ)NH3",
+                                "8D1)KVB",
+                                "S1L)7LM",
+                                "RSP)8B2",
+                                "JYF)DBS",
+                                "K5C)Y9H",
+                                "4HW)NGC",
+                                "4D2)G2S",
+                                "9WT)LG5",
+                                "ZD3)NCZ",
+                                "Y9C)C8F",
+                                "M3P)418",
+                                "8X5)KZ4",
+                                "YHM)29W",
+                                "59F)FXR",
+                                "XLP)R1R",
+                                "KJ2)2DF",
+                                "YF4)YQL",
+                                "Z14)M9L",
+                                "PNV)R7M",
+                                "ZBW)1KH",
+                                "8G8)5HF",
+                                "8X6)484",
+                                "G3Q)12V",
+                                "8GV)3Q2",
+                                "421)2N3",
+                                "W2N)K6V",
+                                "V1F)YZC",
+                                "188)SP4",
+                                "PWS)B3S",
+                                "5Q5)R9L",
+                                "T2C)5XL",
+                                "TYS)GC9",
+                                "2GZ)ZVH",
+                                "5YW)FCS",
+                                "T6D)TWK",
+                                "2BK)XMF",
+                                "TPP)W47",
+                                "HDC)VGK",
+                                "X8D)S87",
+                                "Z8Q)XBV",
+                                "7YK)NCS",
+                                "GQN)H8Q",
+                                "CSF)5C9",
+                                "BFM)TGW",
+                                "MLF)HHY",
+                                "P9G)RRB",
+                                "Q2S)VLB",
+                                "PTK)ZR5",
+                                "BZX)TB1",
+                                "2RZ)9Y2",
+                                "BR7)NG8",
+                                "QH5)13K",
+                                "6BD)M7X",
+                                "WYH)Z6M",
+                                "ZVH)F8P",
+                                "4JQ)51D",
+                                "XVB)D4C",
+                                "1YW)TD6",
+                                "RHH)JYF",
+                                "M79)8NH",
+                                "GP1)5ZC",
+                                "YQ1)QW6",
+                                "1YL)MTV",
+                                "HN6)D1C",
+                                "1DQ)BRR",
+                                "DDW)21W",
+                                "F2C)CK4",
+                                "19Q)T3B",
+                                "MT3)42N",
+                                "X4J)TNV",
+                                "Y65)MCG",
+                                "KKP)H2F",
+                                "ZP7)QPN",
+                                "CST)1GB",
+                                "QR1)8TW",
+                                "C9T)8NV",
+                                "SWG)H3X",
+                                "BKX)1ZP",
+                                "8GY)H8F",
+                                "PRV)N8R",
+                                "8V5)WWW",
+                                "LSW)SFM",
+                                "C6N)JCY",
+                                "1GW)PQS",
+                                "WCJ)74S",
+                                "KNF)4Z6",
+                                "2WN)T14",
+                                "PQS)5QD",
+                                "6XC)NVV",
+                                "DNR)ZYR",
+                                "MRC)T43",
+                                "3QB)MQZ",
+                                "X5L)MRC",
+                                "9ZS)ZKT",
+                                "TDB)2SZ",
+                                "M16)7L2",
+                                "TWK)TS8",
+                                "G72)72G",
+                                "NPC)8S6",
+                                "56W)7V3",
+                                "WBC)DBL",
+                                "6MN)3B9",
+                                "JRW)HRS",
+                                "JCY)RQG",
+                                "2XV)RH9",
+                                "3J2)61H",
+                                "Z8T)8FZ",
+                                "2QL)QK6",
+                                "7L2)9WN",
+                                "RPT)D9F",
+                                "RDT)8GY",
+                                "1ZP)69S",
+                                "BWW)7TQ",
+                                "C8F)FQC",
+                                "3X9)78H",
+                                "MLH)TWR",
+                                "7MJ)JGL",
+                                "NCG)LYR",
+                                "LG5)Y2J",
+                                "W4Z)4ZR",
+                                "5HF)SF5",
+                                "7BF)V8M",
+                                "WLZ)5Q5",
+                                "CFB)PH8",
+                                "425)189",
+                                "LYF)21B",
+                                "96W)5XP",
+                                "G38)9P7",
+                                "LFQ)GJ2",
+                                "YQ1)MHM",
+                                "ZJ3)57T",
+                                "T14)VFP",
+                                "V4X)8HT",
+                                "RVJ)C2W",
+                                "J3G)L4X",
+                                "161)5Q1",
+                                "GNY)4YD",
+                                "QWN)QFY",
+                                "HBR)3V3",
+                                "ZR5)QH5",
+                                "3V3)WT2",
+                                "JGB)G39",
+                                "8B7)QM2",
+                                "2CD)BP7",
+                                "6CT)WCX",
+                                "LB9)G72",
+                                "R2F)8XK",
+                                "K58)J83",
+                                "WB4)HV7",
+                                "BHG)17Z",
+                                "RN6)2FH",
+                                "67K)Z54",
+                                "KMC)B51",
+                                "51D)ZHC",
+                                "TD6)2CD",
+                                "189)3YC",
+                                "YR6)JGS",
+                                "8X5)H6R",
+                                "PH8)6JN",
+                                "PNS)VG5",
+                                "KX1)1YL",
+                                "TNV)93D",
+                                "GW6)378",
+                                "HDY)126",
+                                "5FX)HVX",
+                                "ZF7)TWJ",
+                                "P72)ZH4",
+                                "SMJ)1W5",
+                                "FXM)T2C",
+                                "ZZG)DYC",
+                                "N7H)2X2",
+                                "T1J)YDQ",
+                                "Y7L)S5X",
+                                "L1H)RCQ",
+                                "S6P)Y9C",
+                                "ZRM)3GX",
+                                "GY8)R1F",
+                                "YSL)SAN",
+                                "DD7)ZS7",
+                                "F1N)CHH",
+                                "4WN)94D",
+                                "XR4)816",
+                                "8QG)ZF7",
+                                "H2F)BLV",
+                                "KQL)7L9",
+                                "C7X)MTM",
+                                "R3M)4FC",
+                                "92N)ZP7",
+                                "JRW)VSP",
+                                "13K)DRD",
+                                "LPY)H6F",
+                                "R28)LLW",
+                                "GPX)5VY",
+                                "DMN)H1K",
+                                "8QP)VNK",
+                                "MKV)LBC",
+                                "N7S)5ZJ",
+                                "9PJ)2JN",
+                                "YDQ)HN6",
+                                "NKR)GPW",
+                                "25Q)7VR",
+                                "S5G)L21",
+                                "64D)9GD",
+                                "DBL)R7V",
+                                "TCD)BFQ",
+                                "QTX)G92"};
 }
