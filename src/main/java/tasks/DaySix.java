@@ -1,6 +1,8 @@
 package tasks;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class DaySix {
 
@@ -32,6 +34,24 @@ public class DaySix {
 
     public int calculateMinimumNumberOfOrbitalTransfers() {
         int transfers = 0;
-        return 0;
+        List<String> youRoute = getAllOrbits("YOU");
+        List<String> santaRoute = getAllOrbits("SAN");
+        for (String orbit : youRoute) {
+            if (santaRoute.contains(orbit)) {
+                transfers = youRoute.indexOf(orbit) + santaRoute.indexOf(orbit);
+                break;
+            }
+        }
+        return transfers;
+    }
+
+    public List<String> getAllOrbits(String start) {
+        List<String> route = new ArrayList<>();
+        String value = directOrbit.get(start);
+        while (null != value) {
+            route.add(value);
+            value = directOrbit.get(value);
+        }
+        return route;
     }
 }

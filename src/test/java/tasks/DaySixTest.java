@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class DaySixTest {
 
@@ -119,8 +119,8 @@ class DaySixTest {
 
         //when
         daySix.createOrbitMap(input);
-        int checksum = daySix.calculateMinimumNumberOfOrbitalTransfers();
+        int orbitalTransfers = daySix.calculateMinimumNumberOfOrbitalTransfers();
         //then
-        assertThat(checksum).isEqualTo(42);
+        assertThat(orbitalTransfers).isEqualTo(4);
     }
 }

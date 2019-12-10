@@ -10,6 +10,8 @@ public class AdventOfCodeDaySix {
         Input input = new Input();
         daySix.createOrbitMap(input.orbitMap);
         System.out.println("Day Six, part one: " + daySix.countOrbits());
+        System.out.println("Day Six, part two: " + daySix.calculateMinimumNumberOfOrbitalTransfers());
+
     }
 }
 
